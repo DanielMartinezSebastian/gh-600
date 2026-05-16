@@ -1,0 +1,216 @@
+﻿Table of contents
+Exit editor mode
+Ask Learn
+Ask Learn
+Reading mode
+Table of contents
+Read in English
+Add
+Add to plan
+Edit
+Copy Markdown
+Print
+Note
+Access to this page requires authorization. You can try signing in or changing directories .
+Access to this page requires authorization. You can try changing directories .
+Study guide for Exam GH-600: Developing in Agentic AI Systems
+Feedback
+Summarize this article for me
+In this article
+Purpose of this document
+This study guide should help you understand what to expect on the exam
+and includes a summary of the topics the exam might cover and links to
+additional resources. The information and materials in this document
+should help you focus your studies as you prepare for the exam.
+Useful links
+Description
+Certification renewal
+Microsoft associate, expert, and specialty certifications expire annually. You can renew by passing a free online assessment on Microsoft Learn.
+Your Microsoft Learn profile
+Connecting your certification profile to Microsoft Learn allows you to schedule and renew exams and share and print certificates.
+Exam scoring and score reports
+A score of 700 or greater is required to pass.
+Exam sandbox
+You can explore the exam environment by visiting our exam sandbox.
+Request accommodations
+If you use assistive devices, require extra time, or need modification to any part of the exam experience, you can request an accommodation.
+About the exam
+Some exams are localized into other languages, and those are updated
+approximately eight weeks after the English version is updated. While
+Microsoft makes every effort to update localized versions as noted,
+there may be times when the localized versions of an exam are not
+updated on this schedule. Other available languages are listed in the
+Schedule Exam section of the Exam Details webpage. If the exam
+isn't available in your preferred language, you can request an
+additional 30 minutes to complete the exam.
+Note
+The bullets that follow each of the skills measured are intended to
+illustrate how we are assessing that skill. Related topics may be
+covered in the exam.
+Note
+Most questions cover features that are general availability (GA). The
+exam may contain questions on Preview features if those features are
+commonly used.
+Skills measured
+Audience profile
+You should have subject matter expertise in operating, integrating,
+supervising, and governing AI agents inside production-grade SDLC
+workflows and development environments, ensuring reliability, safety,
+and velocity using GitHub as the system of record and control plane.
+Your responsibilities for this role include:
+Operating agent workflows inside the SDLC
+Supervising autonomous behavior with GitHub controls
+Evaluating and tuning agent outputs using scans and artifacts
+Configuring custom agents
+Coordinating multi-agent execution safely
+You work closely with architects, platform engineers, DevOps engineers,
+application developers, product managers, and security engineers to
+develop, deploy, operate, and manage agents that operate within the
+GitHub platform.
+You should have experience with the software development lifecycle
+(SDLC), workflows in GitHub and controls, and code quality, security,
+and review practices. You should also have experience with coding agents
+including GitHub Copilot, MCP servers and agent customization such as
+custom instructions, custom agents, tools, and Copilot setup steps.
+Skills at a glance
+Prepare agent architecture and SDLC processes (15â20%)
+Implement tool use and environment interaction (20â25%)
+Manage memory, state, and execution (10â15%)
+Perform evaluation, error analysis, and tuning (15â20%)
+Orchestrate multi-agent coordination (15â20%)
+Implement guardrails and accountability (10â15%)
+Prepare agent architecture and SDLC processes (15â20%)
+Integrate agents into the software development lifecycle (SDLC)
+Identify steps for agents to perform
+Identify and mitigate common anti-patterns in agents
+Define inputs, outputs, and success criteria for agents
+Define boundaries between planning, reasoning, and action
+Configure agent planning to be distinct from agent execution
+Configure an agent to output a structured plan
+Validate agent plans
+Prevent agent action until the agent checked and approved
+Configure observability and control for autonomous agents
+Plan and implement the degree of agent autonomy, including guardrails
+Configure agent to produce inspectable artifacts within standard
+development tooling
+Configure human intervention for autonomous agents without slowing
+delivery
+Implement tool use and environment interaction (20â25%)
+Select and configure agent tools
+Identify required tools
+Configure agent tools
+Configure agent tool permissions
+Configure MCP servers
+Add an MCP server as a tool to an agent
+Configure a GitHub remote MCP server
+Configure the MCP registries
+Configure MCP allow lists
+Integrate agents within development environments
+Evaluate the execution context for an agent
+Configure an agent's scope to a specific repository
+Configure an agent to be invoked in a CI workflow
+Configure an agent to use branch-based scope
+Enable an agent to perform autonomous actions, including creating
+branches and pull requests
+Configure an agent to handle environment-specific constraints
+Operate agents with safe execution paths and robust error handling
+Implement error handling
+Implement retries
+Implement rollbacks
+Implement escalation paths
+Implement traceability and accountability for agent actions
+Manage memory, state, and execution (10â15%)
+Implement agent memory strategies
+Choose between short-term, long-term, and external memory
+Scope agent memory to task-relevant information
+Define memory expiration, pruning, and reset rules
+Persist agent state and manage context drift
+Capture task progress and decisions as durable artifacts
+Resume agent work without repeating steps or diverging from prior
+decisions
+Detect and correct drift during extended agent execution
+Ensure continuity of agent memory and state across tools and environments
+Share agent state
+Prevent conflicting context
+Prevent stale context
+Perform evaluation, error analysis, and tuning (15â20%)
+Define success criteria and evaluation signals for agent tasks
+Specify expected outcomes and operational constraints for agent tasks
+Identify qualitative and quantitative evaluation signals to evaluate
+agents
+Align evaluation criteria with development intent
+Generate evaluation signals by using automated scanning tools
+Analyze agent failures and identify root causes
+Identify failures by using logs, plans, traces, outputs, and workflow
+artifacts
+Classify root causes, including reasoning errors, tool misuse, and
+context or environment issues
+Tune agent behavior based on evaluation results
+Revise instructions, workflows, or constraints
+Refine memory usage
+Refine tool usage and tool access
+Orchestrate multi-agent coordination (15â20%)
+Operate and manage multi-agent workflows
+Apply an orchestration pattern to coordinate multiple agents
+Configure agent isolation for parallel execution
+Detect and resolve agent conflicts, including overlapping code
+changes, duplicated effort, and contradictory outputs
+Configure observability for multi-agent behavior by using logs, artifacts, and operational signals
+Configure multi-agent workflows to produce artifacts suitable for
+review and audit
+Document key decisions, handoffs, and outcomes across agents
+Perform post-hoc analysis of multi-agent behavior
+Detect and respond to multi-agent failures and degraded behavior
+Identify failed, partial, or stalled agent executions
+Respond to degraded behavior or coordination across agents
+Implement multi-agent recovery patterns, including rollback and
+human-in-the-loop
+Manage the lifecycle of agents within multi-agent workflows
+Add agents to existing multi-agent workflows
+Update, reconfigure, or replace agents without disrupting active
+workflows
+Retire agents while preserving auditability and workflow continuity
+Implement guardrails and accountability (10â15%)
+Define autonomy levels
+Classify agent actions by operational, security, and compliance risk
+to right-size human interventions
+Assign autonomy levels to maximize delivery speed while remaining
+compliant with organizational security and Responsible AI standards
+Implement guardrails and human-in-the-loop workflows
+Identify the subset of actions that require human judgment
+Block actions that violate defined security, compliance, or
+Responsible AI policies
+Scope permissions and execution contexts to enforce least-privilege
+access
+Require explicit authorization or controlled paths for irreversible or
+compliance-sensitive changes
+Preserve execution velocity by minimizing approvals that do not
+materially reduce risk
+Study resources
+We recommend that you train and get hands-on experience before you take
+the exam. We offer self-study options and classroom training as well as
+links to documentation, community sites, and videos.
+Study resources
+Links to learning and documentation
+Get trained
+Choose from self-paced learning paths and modules or take an instructor-led course on Microsoft Learn â Foundations of Agentic AI in GitHub , Designing Agent Architecture and SDLC Integration , Tooling, MCP, and Agent Execution Environments
+Find documentation
+Prepare agent architecture and SDLC processes
+Implement Tool Use and Environment Interaction
+Manage Memory, State, and Execution
+Perform Evaluation, Error Analysis, and Tuning
+Orchestrate Multi-Agent Coordination
+Implement Guardrails and Accountability
+Ask a question
+GitHub Community Discussions
+Get community support
+GitHub Blog
+Follow GitHub
+Twitter
+LinkedIn
+Instagram
+Find a video
+YouTube
+Additional resources
+Last updated on
+2026-05-13

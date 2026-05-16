@@ -1,0 +1,1220 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-single    moduleunit show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+    <base href="https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/4-execution-context-boundaries/">
+			<title>Execution context and boundaries - Training | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="This content is a part of the Tooling, MCP, and Agent Execution Environments." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/4-execution-context-boundaries" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Execution context and boundaries - Training" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/4-execution-context-boundaries" />
+			<meta property="og:description" content="This content is a part of the Tooling, MCP, and Agent Execution Environments." />
+			<meta name="platform_id" content="cc7a1543-b13d-cd67-1647-20efd02f5ae3" /> 
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-Learn" />
+
+			<meta name="page_type" content="learn" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="uid" content="learn.github.agent-tooling-mcp-execution-environments.execution-context-boundaries" />
+	
+		<meta name="schema" content="ModuleUnit" />
+	
+		<meta name="page_kind" content="unit" />
+	
+		<meta name="azure_sandbox" content="false" />
+	
+		<meta name="sandbox" content="false" />
+	
+		<meta name="breadcrumb_path" content="/learn/breadcrumb/toc.json" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="clicktale" content="true" />
+	
+		<meta name="adobe-target" content="true" />
+	
+		<meta name="prefetch-feature-rollout" content="true" />
+	
+		<meta name="localization_scopes" content="de-de" />
+	
+		<meta name="localization_scopes" content="es-es" />
+	
+		<meta name="localization_scopes" content="fr-fr" />
+	
+		<meta name="localization_scopes" content="it-it" />
+	
+		<meta name="localization_scopes" content="ru-ru" />
+	
+		<meta name="localization_scopes" content="pt-br" />
+	
+		<meta name="localization_scopes" content="ja-jp" />
+	
+		<meta name="localization_scopes" content="ko-kr" />
+	
+		<meta name="localization_scopes" content="zh-cn" />
+	
+		<meta name="localization_scopes" content="zh-tw" />
+	
+		<meta name="localization_scopes" content="cs-cz" />
+	
+		<meta name="localization_scopes" content="hu-hu" />
+	
+		<meta name="localization_scopes" content="nl-nl" />
+	
+		<meta name="localization_scopes" content="pl-pl" />
+	
+		<meta name="localization_scopes" content="pt-pt" />
+	
+		<meta name="localization_scopes" content="tr-tr" />
+	
+		<meta name="localization_scopes" content="sv-se" />
+	
+		<meta name="author" content="camihmerhar" />
+	
+		<meta name="ms.author" content="camhernandez" />
+	
+		<meta name="ms.date" content="2026-04-28T00:00:00Z" />
+	
+		<meta name="ms.topic" content="unit" />
+	
+		<meta name="document_id" content="837e8617-4cd8-4954-5249-b6fe2a4fc7ab" />
+	
+		<meta name="document_version_independent_id" content="d76b9562-5d60-643b-adfc-ffc8ae3d8c6d" />
+	
+		<meta name="updated_at" content="2026-05-04T14:47:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/learn-pr/blob/live/learn-pr/github/agent-tooling-mcp-execution-environments/4-execution-context-boundaries.yml" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/learn-pr/blob/1dd632088a90e76ff8209eb063a49815cae42464/learn-pr/github/agent-tooling-mcp-execution-environments/4-execution-context-boundaries.yml" />
+	
+		<meta name="git_commit_id" content="1dd632088a90e76ff8209eb063a49815cae42464" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="Docs.learn-pr" />
+	
+		<meta name="unit_completion_type" content="view" />
+	
+		<meta name="feedback_product_url" content="" />
+	
+		<meta name="feedback_help_link_type" content="" />
+	
+		<meta name="feedback_help_link_url" content="" />
+	
+		<meta name="ROBOTS" content="noindex" />
+	
+		<meta name="asset_id" content="modules/agent-tooling-mcp-execution-environments/4-execution-context-boundaries" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="learn-pr/github/agent-tooling-mcp-execution-environments/4-execution-context-boundaries.yml" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/learn/blob/main/learn-pr/github/agent-tooling-mcp-execution-environments/4-execution-context-boundaries.yml" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/4-execution-context-boundaries?accept=text/markdown" />
+	 
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03419.7832-d0a860c4/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<script src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			<script src="/_themes/docs.theme/master/en-us/_themes/global/deprecation.js"></script>
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "ModuleUnit",
+    "brand": "",
+    "context": {},
+    "standardFeedback": false,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "",
+    "feedbackHelpLinkUrl": "",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "",
+    "feedbackProductUrl": "",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": false,
+    "contributors": [
+      {
+        "name": "PhilKang0704",
+        "url": "https://github.com/PhilKang0704"
+      }
+    ],
+    "mathjax": {}
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			
+				<script src="/static/assets/0.4.03419.7832-d0a860c4/scripts/en-us/index-learner-experience.js"></script>
+			
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main background-color-body-dark"
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div data-main-column>
+				<!-- Article header -->
+				<div class="background-color-body">
+		<div id="article-header" class="background-color-body-medium border-bottom display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between uhf-container">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					  
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to plan</span>
+		</button>
+	 
+					  
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	</div>
+				<!-- Unit navigation menu -->
+				
+		<div class="background-color-body-medium border-bottom position-sticky" style="z-index: 1020; inset-block-start: -1px;">
+			<div class="modular-content-container padding-block-xxs">
+				<nav
+					class="display-flex justify-content-center position-relative"
+					aria-label="pagination"
+					data-bi-name="module-nav"
+				>
+					<ul id="unit-nav-dropdown">
+						<li class="dropdown has-centered-menu has-caret" data-bi-name="unit-menu">
+							<button
+								type="button"
+								aria-controls="module-menu"
+								aria-expanded="false"
+								class="button button-clear button-sm dropdown-trigger"
+								data-bi-name="dropdown-trigger"
+								title="Module menu"
+							>
+								<span id="unit-place"></span>
+								<span aria-hidden="true" class="icon">
+									<span class="docon docon-chevron-down-light expanded-indicator"></span>
+								</span>
+							</button>
+							<div
+								class="dropdown-menu width-300 width-450-desktop background-color-body"
+								id="module-menu"
+							></div>
+						</li>
+					</ul>
+					<div id="completion-nav" class="is-hidden font-weight-semibold">
+						Achievements
+					</div>
+					
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 position-absolute right-0 margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn position-absolute right-0 margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn position-absolute right-0 margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	
+				</nav>
+			</div>
+		</div>
+	
+				<!-- Main content area -->
+				<div class="content margin-top-md"><div class="modular-content-container has-body-background box">
+	<div id="unit-inner-section" class="section is-uniform position-relative">
+		<h1 id="module-unit-title" class="margin-right-xxl-desktop">Execution context and boundaries</h1>
+		<div data-progress-uid="learn.github.agent-tooling-mcp-execution-environments.execution-context-boundaries" class="xp-tag position-absolute top-0 right-0 margin-top-xs margin-top-sm-tablet margin-top-lg-desktop margin-top-xs-interactive margin-right-sm margin-right-lg-tablet margin-right-sm-interactive">
+			<div class="xp-tag-hexagon">
+				<span class="xp-tag-icon is-shown-complete docon docon-check">
+					<span class="visually-hidden">Completed</span>
+				</span>
+				<span class="xp-tag-xp"></span>
+			</div>
+		</div>
+		<ul id="module-unit-metadata" class="metadata page-metadata">
+			<li id="module-unit-total-time">5 minutes</li>
+		</ul>
+		<div id="module-unit-module-assessment-message-container" aria-hidden="true" hidden=""></div>
+        <div id="module-unit-notification-container" hidden=""></div>
+		<div id="module-unit-content">
+				<p>Once an agent can take actions and connect to tools, the next question is where and how those actions are executed.</p>
+<p>Execution context defines the boundaries within which an agent operates. This includes the repository it can access, the branch it works on, the workflow that runs its tasks, and the permissions it's granted.</p>
+<p>Without a clearly defined execution context, agent behavior becomes unpredictable and unsafe.</p>
+<p>In this unit, you'll learn:</p>
+<ul>
+<li>What execution context means in GitHub</li>
+<li>How repository and branch scope define boundaries</li>
+<li>How workflows isolate execution</li>
+<li>How permissions enforce control over agent actions</li>
+</ul>
+<h2 id="what-is-execution-context">What is execution context?</h2>
+<p>Execution context is the set of constraints that define where an agent operates and what it can access.</p>
+<p>In GitHub, execution context includes:</p>
+<ul>
+<li>The repository the agent is working in</li>
+<li>The branch the agent is targeting</li>
+<li>The workflow that is executing tasks</li>
+<li>The permissions granted to that workflow</li>
+</ul>
+<p>This context determines both visibility and capability.</p>
+<h2 id="repository-scope">Repository scope</h2>
+<p>Agents always operate within a repository. They can only read and modify code within that repository. They interact with issues, pull requests, and workflows tied to it. They don't have access to other repositories unless explicitly granted.</p>
+<p>Repository scope is the first boundary that limits agent behavior.</p>
+<h2 id="how-repository-scope-is-configured">How repository scope is configured</h2>
+<p>For agents such as the Copilot cloud agent, this boundary is explicitly configured at the repository level.</p>
+<p>To configure this:</p>
+<ol>
+<li>Open your repository on GitHub</li>
+<li>Click Settings</li>
+<li>In the sidebar, under Code &amp; automation, click Copilot</li>
+<li>Select Cloud agent</li>
+<li>Enable and configure the agent for that repository</li>
+<li>Save your configuration</li>
+</ol>
+<p>Once configured, the agent is scoped to that repository and can't operate outside of it.</p>
+<h2 id="custom-agent-scope-within-a-repository">Custom agent scope within a repository</h2>
+<p>Custom agents operate within the same repository boundary but can further refine their scope through configuration.</p>
+<p>Inside a custom agent file (for example, .github/agents/security-reviewer.agent.md), scope is defined using fields such as:</p>
+<ul>
+<li>applyTo â?? limits which files or directories the agent focuses on</li>
+<li>tools â?? defines what actions the agent can perform</li>
+</ul>
+<p>Example:</p>
+<pre><code>applyTo:
+    - '**/*.js'
+    - 'src/auth/**' tools:
+    - read_file
+    - search_files
+</code></pre>
+<p><strong>To configure a custom agent</strong>:</p>
+<ol>
+<li>Create the .github/agents/ directory in your repository</li>
+<li>Add an agent file with the .agent.md extension</li>
+<li>Define its scope using applyTo and tools</li>
+<li>Commit and push the file</li>
+</ol>
+<p>This allows the agent to focus only on specific parts of the repository and operate with limited capabilities.</p>
+<h3 id="how-this-fits-into-execution-context">How this fits into execution context</h3>
+<p>Repository scope defines where the agent operates, while custom agent configuration defines what the agent can access and do within that boundary.</p>
+<p>Together, they create layered control.</p>
+<h2 id="branch-based-isolation">Branch-based isolation</h2>
+<p>Agents don't work directly on the main branch.</p>
+<p>Instead, they:</p>
+<ul>
+<li>Create a new branch from the branch ypu selected</li>
+<li>Make changes within that branch</li>
+<li>Open a pull request targeting a base branch</li>
+</ul>
+<p>This isolates changes and ensures that all modifications go through review before being merged.</p>
+<p>Branch-based isolation is a key safety mechanism.</p>
+<h2 id="configure-an-agent-to-use-branch-based-scope">Configure an agent to use branch-based scope</h2>
+<p>To set up a Copilot Cloud agent to operate with a branch-based scope, follow these steps:</p>
+<ol>
+<li>Selecting a Base Branch:
+<ul>
+<li>Access the Agents Page: Navigate to the Agents page in your GitHub repository.</li>
+</ul>
+</li>
+<li>Choose the Base Branch: When delegating tasks to the Copilot coding agent, you can select a specific base branch. This allows the agent to create a new branch based on your selected branch instead of the default branch (usually "main").</li>
+</ol>
+<p>Custom agents operate within a repository, but they don't control branch behavior directly. Branch-based scope is determined by the system that executes the agent.</p>
+<h3 id="how-it-works">How it works</h3>
+<p>When used with a cloud agent:</p>
+<ul>
+<li>The system automatically creates a branch</li>
+<li>Applies changes</li>
+<li>Opens a pull request</li>
+</ul>
+<p>When used in workflows (CI):</p>
+<ul>
+<li>The workflow determines the branch</li>
+<li>The agent runs within that branch context</li>
+</ul>
+<h3 id="what-custom-agents-control">What custom agents control</h3>
+<p>Custom agents define:</p>
+<ul>
+<li>What files they focus on (applyTo)</li>
+<li>What actions they can perform (tools)</li>
+<li>How they behave (instructions)</li>
+</ul>
+<p>But they don't define:</p>
+<ul>
+<li>Branch creation</li>
+<li>Pull request behavior</li>
+<li>Execution isolation</li>
+</ul>
+<p>Branch-based scope is always enforced by the execution context, not the custom agent itself.</p>
+<h2 id="enable-an-agent-to-perform-autonomous-actions-including-creating-branches-and-pull-requests">Enable an agent to perform autonomous actions, including creating branches and pull requests</h2>
+<p>Agents can perform autonomous actions within a repository once they're enabled and given a task.</p>
+<p>Steps:</p>
+<ol>
+<li><p>Enable the agent for the repository.</p>
+<ul>
+<li>Go to Settings â?? Copilot â?? Cloud agent</li>
+<li>Enable the agent, select the repository</li>
+</ul>
+</li>
+<li><p>Assign a task to the agent.</p>
+<ul>
+<li>From an issue, Copilot Chat, or the agents interface</li>
+<li>Example: fix a bug, implement a feature</li>
+</ul>
+</li>
+<li><p>Allow the agent to execute the task.</p>
+<p>The agent will:</p>
+<ul>
+<li>Create a branch</li>
+<li>Make code changes</li>
+<li>Commit and push updates</li>
+</ul>
+</li>
+<li><p>Review and finalize.</p>
+<p>Once you're satisfied with the code changes and results, trigger a pull request. You can request changes in the pull request, or go ahead and merge.</p>
+</li>
+</ol>
+<p>The agent works autonomously within the repository by creating branches, modifying code, and opening pull requests, while still operating within a controlled and reviewable workflow.</p>
+<h2 id="workflow-boundaries">Workflow boundaries</h2>
+<p>Execution happens inside workflows powered by GitHub Actions. Each workflow defines what triggers execution, what steps are performed, and what environment the code runs in. Workflows act as controlled execution containers. They ensure that tasks run in a clean environment, execution is repeatable, and logs and results are captured. Workflows are also how agent behavior is executed in CI environments.</p>
+<h2 id="permission-boundaries">Permission boundaries</h2>
+<p>Permissions define what an agent can do within its execution context.</p>
+<p>Workflows are assigned permissions through tokens, such as the GITHUB_TOKEN.</p>
+<p>These permissions can allow or restrict:</p>
+<ul>
+<li>Reading repository contents</li>
+<li>Writing code</li>
+<li>Creating pull requests</li>
+<li>Accessing secrets</li>
+<li>Triggering workflows</li>
+</ul>
+<p>Permissions should always be explicitly defined and minimized.</p>
+<h2 id="guardrails-in-github-agentic-workflows">Guardrails in GitHub Agentic Workflows</h2>
+<p>GitHub Agentic Workflows are designed with defense in depth. Key controls include:</p>
+<ul>
+<li>Read-only tokens by default so the agent can inspect repository state without directly changing it</li>
+<li>Safe outputs that let the agent propose actions while a separate gated step decides what is allowed</li>
+<li>Zero secrets in the agent process, keeping sensitive credentials out of the runtime used by the coding agent</li>
+<li>Sandboxed, containerized execution</li>
+<li>Network isolation and allowlisted outbound access</li>
+<li>Threat detection that scans proposed outputs before any write action is applied</li>
+</ul>
+<p>This model helps reduce the risks of overprivileged agents, prompt injection, and unintended repository changes.</p>
+<h2 id="why-boundaries-matter">Why boundaries matter</h2>
+<p>Execution context is what makes agent systems safe.</p>
+<p>By combining:</p>
+<ul>
+<li>Repository scope</li>
+<li>Branch isolation</li>
+<li>Workflow execution</li>
+<li>Permission control</li>
+</ul>
+<p>GitHub ensures that agents operate within clear, enforceable limits.</p>
+<p>This prevents:</p>
+<ul>
+<li>Uncontrolled changes to production code</li>
+<li>Access to unintended resources</li>
+<li>Unsafe or unreviewed execution</li>
+</ul>
+<h2 id="how-agents-are-invoked-through-workflows">How agents are invoked through workflows</h2>
+<p>To run agent-driven tasks as part of CI, you invoke them inside a workflow. In this setup, the workflow becomes the execution boundary, and the agent runs within the runner using defined steps and permissions.</p>
+<p>Steps:</p>
+<ol>
+<li><p>Create or open a workflow file in your repository: <code>.github/workflows/agent-task.yml</code></p>
+</li>
+<li><p>Define when the workflow should run:</p>
+<pre><code>on:
+ workflow_dispatch: 
+schedule: - cron: '0 9 * * *' 
+</code></pre>
+<p>You can also use events like push or pull_request depending on your use case.</p>
+</li>
+<li><p>Set workflow permissions:</p>
+<pre><code>permissions: 
+    contents: read
+</code></pre>
+<p>Adjust permissions based on what the workflow needs to do.</p>
+</li>
+<li><p>Define a job and runner:</p>
+<pre><code>jobs: 
+	agent-task: 
+		runs-on: ubuntu-latest 
+
+</code></pre>
+</li>
+<li><p>Check out the repository:</p>
+<pre><code>uses: actions/checkout@v4
+</code></pre>
+</li>
+<li><p>Set up Node.js:</p>
+<pre><code>uses: actions/setup-node@v4 
+with: node-version: '18' 
+</code></pre>
+</li>
+<li><p>Provide authentication:</p>
+<pre><code>env: COPILOT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+</code></pre>
+</li>
+<li><p>Run the agent task:</p>
+<pre><code>run: | npx @github/copilot-cli 
+-p "Summarize recent changes in this repository" 
+--no-ask-user (Optional) 
+</code></pre>
+</li>
+<li><p>Use a custom agent:</p>
+<pre><code>run: | npx @github/copilot-cli 
+--agent security-reviewer 
+-p "Review this code for vulnerabilities" 
+--no-ask-user
+</code></pre>
+</li>
+</ol>
+<p>The workflow becomes the controlled execution path for the agent. The task runs on a defined runner, with a defined trigger, inside a defined repository context, and with only the permissions granted to that workflow.</p>
+<h2 id="branch-scope-and-workflow-execution">Branch scope and workflow execution</h2>
+<p>Workflows run against a specific branch.</p>
+<p>Since agents make changes on a branch:</p>
+<ul>
+<li>Workflow execution is scoped to that branch</li>
+<li>Changes are isolated from the default branch</li>
+<li>Validation occurs before merging</li>
+</ul>
+<p>This ensures that agent activity remains contained within a controlled execution scope.</p>
+<h2 id="key-takeaway">Key takeaway</h2>
+<p>Execution context defines where agents operate. Boundaries such as repository scope, branch isolation, workflows, and permissions ensure that agent actions remain controlled, predictable, and safe.</p>
+<p>Next, you'll learn how to design safe execution paths, including retries, rollbacks, and escalation mechanisms.</p>
+
+		</div>
+		<div id="next-section" class="modular-content-container" hidden="">
+		</div>
+	</div>
+</div>
+</div>
+				<!-- Feedback area -->
+				
+				<div class="modular-content-container margin-block-xs">
+					<section
+						class="feedback-section section is-full-height is-uniform padding-block-none position-relative"
+					>
+						<div id="ms--unit-support-message" class="font-weight-semibold display-none"></div>
+						<div id="ms--unit-user-feedback">
+							
+		<!-- feedback section -->
+		<section
+			id="site-user-feedback-footer"
+			class="font-size-sm margin-top-md display-none-print "
+			data-test-id="site-user-feedback-footer"
+			data-bi-name="site-feedback-section"
+		>
+			<hr class="hr" />
+			<h2 id="ms--feedback" class="title is-3">Feedback</h2>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="buttons">
+					<button
+						class="thumb-rating-button like button button-primary button-sm"
+						data-test-id="footer-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+						<span>Yes</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike button button-primary button-sm"
+						id="standard-rating-no-button"
+						hidden
+						data-test-id="footer-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</button>
+					<details
+						class="popover popover-top"
+						id="mobile-help-popover"
+						data-test-id="footer-feedback-popover"
+					>
+						<summary
+							class="thumb-rating-button dislike button button-primary button-sm"
+							data-test-id="details-footer-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+							<span>No</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading"
+							aria-describedby="popover-description"
+						>
+							<p id="popover-heading" class="font-size-lg margin-bottom-xxs font-weight-semibold">
+								Need help with this topic?
+							</p>
+							<p id="popover-description" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- end feedback section -->
+	
+						</div>
+					</section>
+				</div>
+		  
+				<!-- Interactive footer area -->
+				
+			</div>
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside  "
+					data-bi-name="aside"
+					aria-label="Additional resources"
+			  >
+					
+		<div
+			id="interactive-container"
+			class="interactive-container is-visible-interactive height-full background-color-body-dark display-none display-block-tablet"
+		></div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer is-hidden-interactive" data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-expanded="false"
+				title="Theme"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu">
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="light"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="dark"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="high-contrast"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>

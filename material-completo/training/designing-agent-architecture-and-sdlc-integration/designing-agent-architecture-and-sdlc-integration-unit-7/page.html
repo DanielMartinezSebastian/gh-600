@@ -1,0 +1,1193 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-single    moduleunit show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+    <base href="https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/7-agent-operations-controls/">
+			<title>Control and operate agents - observability, tools, MCP, secrets, hooks, and reliability - Training | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="This content is a part of the Designing Agent Architecture and SDLC Integration." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/7-agent-operations-controls" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Control and operate agents - observability, tools, MCP, secrets, hooks, and reliability - Training" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/7-agent-operations-controls" />
+			<meta property="og:description" content="This content is a part of the Designing Agent Architecture and SDLC Integration." />
+			<meta name="platform_id" content="f157eb26-d7d5-b235-f026-b4a2c348ed97" /> 
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-Learn" />
+
+			<meta name="page_type" content="learn" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="uid" content="learn.github.design-agent-architecture-integration.agent-operations-controls" />
+	
+		<meta name="schema" content="ModuleUnit" />
+	
+		<meta name="page_kind" content="unit" />
+	
+		<meta name="azure_sandbox" content="false" />
+	
+		<meta name="sandbox" content="false" />
+	
+		<meta name="breadcrumb_path" content="/learn/breadcrumb/toc.json" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="clicktale" content="true" />
+	
+		<meta name="adobe-target" content="true" />
+	
+		<meta name="prefetch-feature-rollout" content="true" />
+	
+		<meta name="localization_scopes" content="de-de" />
+	
+		<meta name="localization_scopes" content="es-es" />
+	
+		<meta name="localization_scopes" content="fr-fr" />
+	
+		<meta name="localization_scopes" content="it-it" />
+	
+		<meta name="localization_scopes" content="ru-ru" />
+	
+		<meta name="localization_scopes" content="pt-br" />
+	
+		<meta name="localization_scopes" content="ja-jp" />
+	
+		<meta name="localization_scopes" content="ko-kr" />
+	
+		<meta name="localization_scopes" content="zh-cn" />
+	
+		<meta name="localization_scopes" content="zh-tw" />
+	
+		<meta name="localization_scopes" content="cs-cz" />
+	
+		<meta name="localization_scopes" content="hu-hu" />
+	
+		<meta name="localization_scopes" content="nl-nl" />
+	
+		<meta name="localization_scopes" content="pl-pl" />
+	
+		<meta name="localization_scopes" content="pt-pt" />
+	
+		<meta name="localization_scopes" content="tr-tr" />
+	
+		<meta name="localization_scopes" content="sv-se" />
+	
+		<meta name="author" content="camihmerhar" />
+	
+		<meta name="ms.author" content="camhernandez" />
+	
+		<meta name="ms.date" content="2026-04-28T00:00:00Z" />
+	
+		<meta name="ms.topic" content="unit" />
+	
+		<meta name="document_id" content="9b53fba0-02ea-6727-6515-c19f1f9db1d7" />
+	
+		<meta name="document_version_independent_id" content="2eb13ba1-f21a-3b11-aaca-8d86de28fd56" />
+	
+		<meta name="updated_at" content="2026-05-04T14:47:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/learn-pr/blob/live/learn-pr/github/design-agent-architecture-integration/7-agent-operations-controls.yml" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/learn-pr/blob/7433ff05f9083ffb9bb1af778f755e1bf4b310e1/learn-pr/github/design-agent-architecture-integration/7-agent-operations-controls.yml" />
+	
+		<meta name="git_commit_id" content="7433ff05f9083ffb9bb1af778f755e1bf4b310e1" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="Docs.learn-pr" />
+	
+		<meta name="unit_completion_type" content="view" />
+	
+		<meta name="feedback_product_url" content="" />
+	
+		<meta name="feedback_help_link_type" content="" />
+	
+		<meta name="feedback_help_link_url" content="" />
+	
+		<meta name="ROBOTS" content="noindex" />
+	
+		<meta name="asset_id" content="modules/design-agent-architecture-integration/7-agent-operations-controls" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="learn-pr/github/design-agent-architecture-integration/7-agent-operations-controls.yml" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/learn/blob/main/learn-pr/github/design-agent-architecture-integration/7-agent-operations-controls.yml" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/7-agent-operations-controls?accept=text/markdown" />
+	 
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03419.7832-d0a860c4/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<script src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			<script src="/_themes/docs.theme/master/en-us/_themes/global/deprecation.js"></script>
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "ModuleUnit",
+    "brand": "",
+    "context": {},
+    "standardFeedback": false,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "",
+    "feedbackHelpLinkUrl": "",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "",
+    "feedbackProductUrl": "",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": false,
+    "contributors": [
+      {
+        "name": "Albertyang0",
+        "url": "https://github.com/Albertyang0"
+      }
+    ],
+    "mathjax": {}
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			
+				<script src="/static/assets/0.4.03419.7832-d0a860c4/scripts/en-us/index-learner-experience.js"></script>
+			
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main background-color-body-dark"
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div data-main-column>
+				<!-- Article header -->
+				<div class="background-color-body">
+		<div id="article-header" class="background-color-body-medium border-bottom display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between uhf-container">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					  
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to plan</span>
+		</button>
+	 
+					  
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	</div>
+				<!-- Unit navigation menu -->
+				
+		<div class="background-color-body-medium border-bottom position-sticky" style="z-index: 1020; inset-block-start: -1px;">
+			<div class="modular-content-container padding-block-xxs">
+				<nav
+					class="display-flex justify-content-center position-relative"
+					aria-label="pagination"
+					data-bi-name="module-nav"
+				>
+					<ul id="unit-nav-dropdown">
+						<li class="dropdown has-centered-menu has-caret" data-bi-name="unit-menu">
+							<button
+								type="button"
+								aria-controls="module-menu"
+								aria-expanded="false"
+								class="button button-clear button-sm dropdown-trigger"
+								data-bi-name="dropdown-trigger"
+								title="Module menu"
+							>
+								<span id="unit-place"></span>
+								<span aria-hidden="true" class="icon">
+									<span class="docon docon-chevron-down-light expanded-indicator"></span>
+								</span>
+							</button>
+							<div
+								class="dropdown-menu width-300 width-450-desktop background-color-body"
+								id="module-menu"
+							></div>
+						</li>
+					</ul>
+					<div id="completion-nav" class="is-hidden font-weight-semibold">
+						Achievements
+					</div>
+					
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 position-absolute right-0 margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn position-absolute right-0 margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn position-absolute right-0 margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	
+				</nav>
+			</div>
+		</div>
+	
+				<!-- Main content area -->
+				<div class="content margin-top-md"><div class="modular-content-container has-body-background box">
+	<div id="unit-inner-section" class="section is-uniform position-relative">
+		<h1 id="module-unit-title" class="margin-right-xxl-desktop">Control and operate agents - observability, tools, MCP, secrets, hooks, and reliability</h1>
+		<div data-progress-uid="learn.github.design-agent-architecture-integration.agent-operations-controls" class="xp-tag position-absolute top-0 right-0 margin-top-xs margin-top-sm-tablet margin-top-lg-desktop margin-top-xs-interactive margin-right-sm margin-right-lg-tablet margin-right-sm-interactive">
+			<div class="xp-tag-hexagon">
+				<span class="xp-tag-icon is-shown-complete docon docon-check">
+					<span class="visually-hidden">Completed</span>
+				</span>
+				<span class="xp-tag-xp"></span>
+			</div>
+		</div>
+		<ul id="module-unit-metadata" class="metadata page-metadata">
+			<li id="module-unit-total-time">5 minutes</li>
+		</ul>
+		<div id="module-unit-module-assessment-message-container" aria-hidden="true" hidden=""></div>
+        <div id="module-unit-notification-container" hidden=""></div>
+		<div id="module-unit-content">
+				<p>In this unit, you will learn:</p>
+<ul>
+<li><p>Discover the evidence and artifacts that are required for agent work</p>
+</li>
+<li><p>How to control tools, MCP integrations, and secrets safely</p>
+</li>
+<li><p>How hooks enforce guardrails and audit logging</p>
+</li>
+<li><p>How to design for reliability using retries, escalation, and least privilege</p>
+</li>
+</ul>
+<h2 id="required-evidence-and-artifacts-for-agents">Required evidence and artifacts for agents</h2>
+<p>An agent system must produce visible artifacts for every meaningful action. Without artifacts, you cannot reliably review behavior, debug failures, or perform post-hoc analysis.</p>
+<p>In GitHub, observability is achieved through artifacts such as:</p>
+<ul>
+<li><p>pull requests and PR timelines,</p>
+</li>
+<li><p>commits and branch history,</p>
+</li>
+<li><p>workflow runs and job logs,</p>
+</li>
+<li><p>required checks and scan results, and</p>
+</li>
+<li><p>uploaded workflow artifacts (for example, test reports).</p>
+</li>
+</ul>
+<h3 id="minimum-observability-set">Minimum observability set</h3>
+<p>A well-designed agent task should produce visible, reviewable evidence using GitHub-native artifacts:</p>
+<ul>
+<li><p>a structured plan, typically included in a pull request description or discussion</p>
+</li>
+<li><p>a bounded pull request and commit history</p>
+</li>
+<li><p>workflow run links for required checks</p>
+</li>
+<li><p>uploaded artifacts (for example, logs or reports)</p>
+</li>
+<li><p>review outcomes (approvals or changes requested)</p>
+</li>
+</ul>
+<h3 id="upload-workflow-artifacts-for-review-and-debugging">Upload workflow artifacts for review and debugging</h3>
+<p>Uploading artifacts makes evidence durable and reviewable, even when logs scroll away.</p>
+<p>We recommend the best practice of including links to workflow runs and relevant artifacts in the PR under an "Evidence" section so reviewers can quickly validate outcomes.</p>
+<pre><code class="lang-yml">- name: Upload test results
+  uses: actions/upload-artifact@v4
+  with:
+    name: test-results
+    path: results/
+</code></pre>
+<h3 id="reliability-assumes-failure">Reliability assumes failure</h3>
+<p>Reliable systems assume that failure will occur. Agents will misunderstand tasks, tests will fail, and changes will conflict with existing behavior. Your architecture should detect failures early and provide safe recovery paths.</p>
+<p>A practical reliability pattern includes:</p>
+<ul>
+<li><p>Retries: the agent can update the branch when checks fail.</p>
+</li>
+<li><p>Escalation: persistent failures are summarized and handed off to a human.</p>
+</li>
+<li><p>Rollback readiness: high-risk changes include rollback notes and scope limits.</p>
+</li>
+</ul>
+<h3 id="safe-iteration-policy">Safe iteration policy</h3>
+<p>Use a predictable policy for iteration:</p>
+<ul>
+<li><p>If a required check fails, the agent may revise the PR branch and rerun checks.</p>
+</li>
+<li><p>If the same required check fails twice, escalate to a human reviewer with:</p>
+<ul>
+<li><p>what failed,</p>
+</li>
+<li><p>what was attempted,</p>
+</li>
+<li><p>what evidence exists, and</p>
+</li>
+<li><p>what the suggested next step is.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>This policy helps prevent infinite loops and makes failures actionable.</p>
+<h3 id="observability-as-a-required-architectural-feature">Observability as a required architectural feature</h3>
+<p>A minimum observability set for autonomous work should include:</p>
+<ul>
+<li><p>a visible plan artifact,</p>
+</li>
+<li><p>a PR + commit history,</p>
+</li>
+<li><p>workflow run links for required checks,</p>
+</li>
+<li><p>durable artifacts (logs/reports/traces),</p>
+</li>
+<li><p>review outcomes and approvals.</p>
+</li>
+</ul>
+<h3 id="make-evidence-traceable-to-execution-and-code-state">Make evidence traceable to execution and code state</h3>
+<p>Teach a naming/metadata principle:</p>
+<ul>
+<li>Evidence should be traceable to a specific workflow run and a specific commit.</li>
+</ul>
+<p>This helps audits and debugging: you can answer "which run produced this artifact, and against what code state?"</p>
+<h3 id="share-evidence-across-jobs-using-artifacts">Share evidence across jobs using artifacts</h3>
+<p>Teach the pattern:</p>
+<ul>
+<li><p>Upload artifacts where they are produced</p>
+</li>
+<li><p>Download them where they are reviewed or deployed</p>
+</li>
+</ul>
+<p>This keeps outputs inspectable and usable without committing generated files back to the repo.</p>
+<h2 id="how-to-control-tools-mcp-integrations-and-secrets-safely">How to control tools, MCP integrations, and secrets safely</h2>
+<p>Agent profile configuration provides three kinds of control:</p>
+<ul>
+<li>Capability boundary: which tools are allowed (prefer allowlists)</li>
+<li>Visibility boundary: whether the agent is user-selectable in interactive UI</li>
+<li>Delegation boundary: which subagents can be invoked and how handoffs occur
+Design guidance:</li>
+<li>Use read-only toolsets for planning and review agents.</li>
+<li>Restrict implementation tools to execution agents.</li>
+<li>Treat changes to tool allowlists as a governance-sensitive change.</li>
+</ul>
+<h3 id="mcp-servers-extend-tools-safely">MCP servers: extend tools safely</h3>
+<p>MCP servers extend tool capability. Teach these patterns:</p>
+<ul>
+<li>Transport shape: some MCP servers are remote endpoints; others are local processes.</li>
+<li>Authentication: tokens should be injected at runtime via protected secret boundaries.</li>
+<li>Namespace control: prefer enabling a narrow tool subset rather than broad wildcards.</li>
+</ul>
+<p>Operational guidance:</p>
+<ul>
+<li>Adding or expanding MCP tools increases blast radius and should be reviewed like a high-risk dependency.</li>
+</ul>
+<h3 id="secrets-and-environment-constraints-keep-secrets-out-of-repo-content">Secrets and environment constraints (keep secrets out of repo content)</h3>
+<p>Do not place secrets in:</p>
+<ul>
+<li>instructions files,</li>
+<li>committed configuration files,</li>
+<li>or workflow YAML in plain text.</li>
+</ul>
+<p>Instead:</p>
+<ul>
+<li>Use protected secret boundaries intended for runtime injection,</li>
+<li>Pass secrets only to the components that need them,</li>
+<li>Scope secret availability (for example, by environment) to reduce exposure.</li>
+</ul>
+<p>Teach the principle:</p>
+<ul>
+<li>"The agent's runtime environment has its own secret boundary; don't assume it automatically inherits repository CI secrets."</li>
+</ul>
+<h2 id="how-hooks-enforce-guardrails-and-audit-logging">How hooks enforce guardrails and audit logging</h2>
+<p>In GitHub Copilot agents, hooks are defined as configuration files stored in the repository (for example, under .github/hooks/). Each hook specifies when it runs and what action it performs.</p>
+<p>Hooks execute custom commands at specific points during agent execution. This allows teams to enforce policies, validate actions, and capture audit data automatically.</p>
+<p>A simplified example:</p>
+<pre><code class="lang-json">{
+  "name": "block-high-risk-command",
+  "trigger": "pre-tool-use",
+  "run": "if [[ \"$TOOL\" == \"delete\" ]]; then echo 'Blocked unsafe command'; exit 1; fi"
+}
+</code></pre>
+<h3 id="how-this-works">How this works</h3>
+<ul>
+<li><p>The hook runs before a tool is executed (pre-tool-use)</p>
+</li>
+<li><p>It inspects the requested action</p>
+</li>
+<li><p>If the action matches a blocked pattern, execution is stopped</p>
+</li>
+</ul>
+<h3 id="common-hook-patterns">Common hook patterns</h3>
+<ul>
+<li><p><strong>Pre-action hooks</strong>
+Validate or block unsafe actions before execution</p>
+</li>
+<li><p><strong>Post-action hooks</strong>
+Log tool usage, outputs, or decisions for auditing</p>
+</li>
+<li><p><strong>Error hooks</strong>
+Capture failures and trigger escalation or alerting</p>
+</li>
+</ul>
+<h3 id="what-hooks-enable">What hooks enable</h3>
+<ul>
+<li><p>Enforcing security policies (for example, blocking unsafe commands)</p>
+</li>
+<li><p>Adding audit logs for compliance and debugging</p>
+</li>
+<li><p>Integrating with external systems (alerts, monitoring, approvals)</p>
+</li>
+<li><p>Hooks provide enforceable control points that operate independently of the model's reasoning. Instead of relying on instructions, they ensure that certain rules are always applied during execution.</p>
+</li>
+</ul>
+<h2 id="how-to-design-for-reliability-using-retries-escalation-and-least-privilege">How to design for reliability using retries, escalation, and least privilege</h2>
+<p>As we spoke about earlier, agents will eventually fail, but we can build systems that can catch these failures and ensure human intervention catches it, for example here are a couple of ways to ensure failures are caught:</p>
+<ul>
+<li><p>Bounded retries for transient failures</p>
+</li>
+<li><p>Escalation paths for repeated failures</p>
+</li>
+<li><p>Rollback readiness for high-risk changes</p>
+</li>
+<li><p>Least-privilege permissions to reduce blast radius</p>
+</li>
+</ul>
+<h3 id="rollback-safe-pattern-to-teach">Rollback-safe pattern to teach:</h3>
+<ul>
+<li>Operate on explicit references (commit/tag) when deploying sensitive configuration, rather than "latest on a branch."</li>
+</ul>
+<h3 id="least-privilege-reminder">Least privilege reminder:</h3>
+<ul>
+<li>Restrict workflow permissions by default and elevate only where needed.</li>
+</ul>
+<h3 id="least-privilege-workflow-permissions">Least-privilege workflow permissions</h3>
+<p>Least privilege reduces risk when something goes wrong. It also prevents over-permissioned automation from becoming an architectural vulnerability.</p>
+<pre><code class="lang-yml">permissions:
+  contents: read
+  pull-requests: write
+</code></pre>
+<p>This configuration allows automation to read repository content and update PR context (comments, statuses) while preventing broad write access by default.</p>
+
+		</div>
+		<div id="next-section" class="modular-content-container" hidden="">
+		</div>
+	</div>
+</div>
+</div>
+				<!-- Feedback area -->
+				
+				<div class="modular-content-container margin-block-xs">
+					<section
+						class="feedback-section section is-full-height is-uniform padding-block-none position-relative"
+					>
+						<div id="ms--unit-support-message" class="font-weight-semibold display-none"></div>
+						<div id="ms--unit-user-feedback">
+							
+		<!-- feedback section -->
+		<section
+			id="site-user-feedback-footer"
+			class="font-size-sm margin-top-md display-none-print "
+			data-test-id="site-user-feedback-footer"
+			data-bi-name="site-feedback-section"
+		>
+			<hr class="hr" />
+			<h2 id="ms--feedback" class="title is-3">Feedback</h2>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="buttons">
+					<button
+						class="thumb-rating-button like button button-primary button-sm"
+						data-test-id="footer-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+						<span>Yes</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike button button-primary button-sm"
+						id="standard-rating-no-button"
+						hidden
+						data-test-id="footer-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</button>
+					<details
+						class="popover popover-top"
+						id="mobile-help-popover"
+						data-test-id="footer-feedback-popover"
+					>
+						<summary
+							class="thumb-rating-button dislike button button-primary button-sm"
+							data-test-id="details-footer-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+							<span>No</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading"
+							aria-describedby="popover-description"
+						>
+							<p id="popover-heading" class="font-size-lg margin-bottom-xxs font-weight-semibold">
+								Need help with this topic?
+							</p>
+							<p id="popover-description" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- end feedback section -->
+	
+						</div>
+					</section>
+				</div>
+		  
+				<!-- Interactive footer area -->
+				
+			</div>
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside  "
+					data-bi-name="aside"
+					aria-label="Additional resources"
+			  >
+					
+		<div
+			id="interactive-container"
+			class="interactive-container is-visible-interactive height-full background-color-body-dark display-none display-block-tablet"
+		></div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer is-hidden-interactive" data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-expanded="false"
+				title="Theme"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu">
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="light"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="dark"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="high-contrast"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>

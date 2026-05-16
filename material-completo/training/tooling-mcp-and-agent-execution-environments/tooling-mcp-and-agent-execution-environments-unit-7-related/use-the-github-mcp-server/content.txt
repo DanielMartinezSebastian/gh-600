@@ -1,0 +1,238 @@
+﻿GitHub Copilot /
+How-tos /
+Provide context /
+Use MCP in your IDE /
+Use the GitHub MCP Server
+Using the GitHub MCP Server in your IDE
+Learn how to use the GitHub Model Context Protocol (MCP) server to interact with repositories, issues, pull requests, and other GitHub features, directly from Copilot Chat in your IDE.
+Tool navigation
+Visual Studio Code
+JetBrains IDEs
+Visual Studio
+Eclipse
+Xcode
+Copy as Markdown
+In this article
+About the GitHub MCP server
+Prerequisites
+Using the GitHub MCP server in Visual Studio Code
+Troubleshooting
+About the GitHub MCP server
+Prerequisites
+Using the GitHub MCP server in Visual Studio
+About the GitHub MCP server
+Prerequisites
+Using the GitHub MCP server in JetBrains IDEs
+Troubleshooting
+About the GitHub MCP server
+Prerequisites
+Using the GitHub MCP server in Xcode
+Troubleshooting
+About the GitHub MCP server
+Prerequisites
+Using the GitHub MCP server in Eclipse
+Troubleshooting
+Further reading
+The GitHub MCP server is available to all GitHub users regardless of plan type. However, specific tools within the MCP server inherit the same access requirements as their corresponding GitHub features. If a feature requires a paid GitHub or Copilot license, the equivalent MCP tool will require the same subscription. For example, tools that interact with Copilot cloud agent require a paid Copilot license.
+About the GitHub MCP server
+The GitHub MCP server is a Model Context Protocol (MCP) server provided and maintained by GitHub. MCP allows you to integrate AI capabilities with other tools and services, enhancing your development experience by providing context-aware AI assistance.
+For a full introduction to the GitHub MCP server and an overview of MCP, see About Model Context Protocol (MCP) .
+Prerequisites
+A GitHub account.
+Visual Studio Code.
+The GitHub MCP server, configured in your editor. See Setting up the GitHub MCP Server .
+If you are a member of an organization or enterprise with a Copilot Business or Copilot Enterprise plan, the "MCP servers in Copilot" policy must be enabled in order to use MCP with Copilot.
+Using the GitHub MCP server in Visual Studio Code
+The GitHub MCP server enables you to perform a wide range of actions on GitHub, via Copilot Chat in Visual Studio Code.
+Open Copilot Chat by clicking the icon in the title bar of Visual Studio Code.
+In the Copilot Chat box, select Agent from the agent dropdown menu.
+To see the available actions, in the Copilot Chat box, click the Configure tools icon.
+If you expand the GitHub MCP server entry, you will see a list of available tools.
+In the Copilot Chat box, type a command or question related to the action you want to perform, and press Enter .
+For example, you can ask the GitHub MCP server to create a new issue, list pull requests, or retrieve repository information.
+The GitHub MCP server will process your request and provide a response in the chat interface.
+In the Copilot Chat box, you may be asked to give additional permissions or provide more information to complete the action.
+Follow the prompts to complete the action.
+Troubleshooting
+If you encounter issues while using the GitHub MCP server, there are a few common troubleshooting steps you can take.
+Authorization issues
+If you are having trouble authorizing the MCP server, ensure that:
+You are signed in to GitHub in your choice of IDE.
+If you are authenticating with a personal access token (PAT), ensure that:
+Your GitHub PAT is valid and has the necessary scopes for the actions you want to perform.
+You have entered the correct PAT.
+Copilot agent mode problems
+If you are having trouble with the Copilot Chat agent mode, ensure that:
+You have selected the correct agent in the Copilot Chat box.
+You have configured the MCP server correctly in your IDE.
+You have the necessary permissions to perform the actions you are trying to execute.
+Push protection block
+If you are using the GitHub MCP server and push protection blocks a secret that you believe is safe to expose, you may be able to bypass the block by specifying a reason for allowing the secret. See Working with push protection and the GitHub MCP server .
+General tips
+If you are experiencing other issues with the GitHub MCP server, here are some general tips to help you troubleshoot:
+Check the output logs of the MCP server for any error messages.
+If you are running the MCP server locally, ensure that your local environment is set up correctly for running Docker containers.
+Try restarting the MCP server or your IDE.
+About the GitHub MCP server
+The GitHub MCP server is a Model Context Protocol (MCP) server provided and maintained by GitHub. MCP allows you to integrate AI capabilities with other tools and services, enhancing your development experience by providing context-aware AI assistance.
+For a full introduction to the GitHub MCP server and an overview of MCP, see About Model Context Protocol (MCP) .
+Prerequisites
+Access to Copilot . See What is GitHub Copilot? .
+Visual Studio version 17.14 or later . For more information on installing Visual Studio, see the Visual Studio downloads page .
+The GitHub MCP server, configured in your editor. See Setting up the GitHub MCP Server .
+Sign in to GitHub from Visual Studio .
+If you are a member of an organization or enterprise with a Copilot Business or Copilot Enterprise plan, the "MCP servers in Copilot" policy must be enabled in order to use MCP with Copilot.
+Using the GitHub MCP server in Visual Studio
+The GitHub MCP server enables you to perform a wide range of actions on GitHub, via Copilot Chat in Visual Studio.
+In the Visual Studio menu bar, click View , then click GitHub Copilot Chat .
+At the bottom of the chat panel, select Agent from the mode dropdown.
+In the Copilot Chat window, click the tools icon.
+Under GitHub , you will see a list of available tools.
+In the Copilot Chat box, type a command or question related to the action you want to perform, and press Enter .
+For example, you can ask the GitHub MCP server to create a new issue, list pull requests, or retrieve repository information.
+The GitHub MCP server will process your request and provide a response in the chat interface.
+In the Copilot Chat box, you may be asked to give additional permissions or provide more information to complete the action.
+Follow the prompts to complete the action.
+About the GitHub MCP server
+The GitHub MCP server is a Model Context Protocol (MCP) server provided and maintained by GitHub. MCP allows you to integrate AI capabilities with other tools and services, enhancing your development experience by providing context-aware AI assistance.
+For a full introduction to the GitHub MCP server and an overview of MCP, see About Model Context Protocol (MCP) .
+Prerequisites
+Access to Copilot . See What is GitHub Copilot? .
+A compatible JetBrains IDE . GitHub Copilot is compatible with the following IDEs:
+IntelliJ IDEA (Ultimate, Community, Educational)
+Android Studio
+AppCode
+CLion
+Code With Me Guest
+DataGrip
+DataSpell
+GoLand
+JetBrains Client
+MPS
+PhpStorm
+PyCharm (Professional, Community, Educational)
+Rider
+RubyMine
+RustRover
+WebStorm
+Writerside
+See the JetBrains IDEs tool finder to download.
+Latest version of the GitHub Copilot extension . See the GitHub Copilot plugin in the JetBrains Marketplace. For installation instructions, see Installing the GitHub Copilot extension in your environment .
+Sign in to GitHub in your JetBrains IDE . For authentication instructions, see Installing the GitHub Copilot extension in your environment .
+The GitHub MCP server , configured in your editor. See Setting up the GitHub MCP Server .
+If you are a member of an organization or enterprise with a Copilot Business or Copilot Enterprise plan, the "MCP servers in Copilot" policy must be enabled in order to use MCP with Copilot.
+Using the GitHub MCP server in JetBrains IDEs
+The GitHub MCP server enables you to perform a wide range of actions on GitHub, via Copilot Chat in JetBrains IDEs.
+Open the Copilot Chat window by clicking the GitHub Copilot Chat icon at the right side of the JetBrains IDE window.
+At the top of the chat panel, click the Agent tab.
+To see the available actions, in the Copilot Chat box, click the tools icon.
+You will see a list of available actions from the GitHub MCP server.
+In the Copilot Chat box, type a command or question related to the action you want to perform, and press Enter .
+For example, you can ask the GitHub MCP server to create a new issue, list pull requests, or retrieve repository information.
+The GitHub MCP server will process your request and provide a response in the chat interface.
+In the Copilot Chat box, you may be asked to give additional permissions or provide more information to complete the action.
+Follow the prompts to complete the action.
+Troubleshooting
+If you encounter issues while using the GitHub MCP server, there are a few common troubleshooting steps you can take.
+Authorization issues
+If you are having trouble authorizing the MCP server, ensure that:
+You are signed in to GitHub in your choice of IDE.
+If you are authenticating with a personal access token (PAT), ensure that:
+Your GitHub PAT is valid and has the necessary scopes for the actions you want to perform.
+You have entered the correct PAT.
+Copilot agent mode problems
+If you are having trouble with the Copilot Chat agent mode, ensure that:
+You have selected the correct agent in the Copilot Chat box.
+You have configured the MCP server correctly in your IDE.
+You have the necessary permissions to perform the actions you are trying to execute.
+Push protection block
+If you are using the GitHub MCP server and push protection blocks a secret that you believe is safe to expose, you may be able to bypass the block by specifying a reason for allowing the secret. See Working with push protection and the GitHub MCP server .
+General tips
+If you are experiencing other issues with the GitHub MCP server, here are some general tips to help you troubleshoot:
+Check the output logs of the MCP server for any error messages.
+If you are running the MCP server locally, ensure that your local environment is set up correctly for running Docker containers.
+Try restarting the MCP server or your IDE.
+About the GitHub MCP server
+The GitHub MCP server is a Model Context Protocol (MCP) server provided and maintained by GitHub. MCP allows you to integrate AI capabilities with other tools and services, enhancing your development experience by providing context-aware AI assistance.
+For a full introduction to the GitHub MCP server and an overview of MCP, see About Model Context Protocol (MCP) .
+Prerequisites
+Access to Copilot . See What is GitHub Copilot? .
+GitHub Copilot for Xcode extension . See Installing the GitHub Copilot extension in your environment .
+The GitHub MCP server, configured in your editor. See Setting up the GitHub MCP Server .
+If you are a member of an organization or enterprise with a Copilot Business or Copilot Enterprise plan, the "MCP servers in Copilot" policy must be enabled in order to use MCP with Copilot.
+Using the GitHub MCP server in Xcode
+The GitHub MCP server enables you to perform a wide range of actions on GitHub, via Copilot Chat in Xcode.
+To open the chat view, click Editor in the menu bar, then click Copilot then Open Chat . Copilot Chat opens in a new window.
+At the bottom of the chat panel, select Agent .
+To see the available actions, in the Copilot Chat box, click the tools icon.
+You will see a list of available actions from the GitHub MCP server.
+In the Copilot Chat box, type a command or question related to the action you want to perform, and press Enter .
+For example, you can ask the GitHub MCP server to create a new issue, list pull requests, or retrieve repository information.
+The GitHub MCP server will process your request and provide a response in the chat interface.
+In the Copilot Chat box, you may be asked to give additional permissions or provide more information to complete the action.
+Follow the prompts to complete the action.
+Troubleshooting
+If you encounter issues while using the GitHub MCP server, there are a few common troubleshooting steps you can take.
+Authorization issues
+If you are having trouble authorizing the MCP server, ensure that:
+You are signed in to GitHub in your choice of IDE.
+If you are authenticating with a personal access token (PAT), ensure that:
+Your GitHub PAT is valid and has the necessary scopes for the actions you want to perform.
+You have entered the correct PAT.
+Copilot agent mode problems
+If you are having trouble with the Copilot Chat agent mode, ensure that:
+You have selected the correct agent in the Copilot Chat box.
+You have configured the MCP server correctly in your IDE.
+You have the necessary permissions to perform the actions you are trying to execute.
+Push protection block
+If you are using the GitHub MCP server and push protection blocks a secret that you believe is safe to expose, you may be able to bypass the block by specifying a reason for allowing the secret. See Working with push protection and the GitHub MCP server .
+General tips
+If you are experiencing other issues with the GitHub MCP server, here are some general tips to help you troubleshoot:
+Check the output logs of the MCP server for any error messages.
+If you are running the MCP server locally, ensure that your local environment is set up correctly for running Docker containers.
+Try restarting the MCP server or your IDE.
+About the GitHub MCP server
+The GitHub MCP server is a Model Context Protocol (MCP) server provided and maintained by GitHub. MCP allows you to integrate AI capabilities with other tools and services, enhancing your development experience by providing context-aware AI assistance.
+For a full introduction to the GitHub MCP server and an overview of MCP, see About Model Context Protocol (MCP) .
+Prerequisites
+Access to Copilot . See What is GitHub Copilot? .
+Compatible version of Eclipse . To use the GitHub Copilot extension, you must have Eclipse version 2024-09 or above. See the Eclipse download page .
+If you are a member of an organization or enterprise with a Copilot Business or Copilot Enterprise plan, the "MCP servers in Copilot" policy must be enabled in order to use MCP with Copilot.
+The GitHub MCP server, configured in your editor. See Setting up the GitHub MCP Server .
+Latest version of the GitHub Copilot extension . Download this from the Eclipse Marketplace . For more information, see Installing the GitHub Copilot extension in your environment .
+Sign in to GitHub from Eclipse .
+Using the GitHub MCP server in Eclipse
+The GitHub MCP server enables you to perform a wide range of actions on GitHub, via Copilot Chat in Eclipse.
+To open the Copilot Chat panel, click the Copilot icon ( ) in the status bar at the bottom of Eclipse, then click Open Chat .
+At the bottom of the chat panel, select Agent from the mode dropdown.
+To see the available actions, in the Copilot Chat box, click the tools icon.
+Under github
+, you will see a list of available actions.
+In the Copilot Chat box, type a command or question related to the action you want to perform, and press Enter .
+For example, you can ask the GitHub MCP server to create a new issue, list pull requests, or retrieve repository information.
+The GitHub MCP server will process your request and provide a response in the chat interface.
+In the Copilot Chat box, you may be asked to give additional permissions or provide more information to complete the action.
+Follow the prompts to complete the action.
+Troubleshooting
+If you encounter issues while using the GitHub MCP server, there are a few common troubleshooting steps you can take.
+Authorization issues
+If you are having trouble authorizing the MCP server, ensure that:
+You are signed in to GitHub in your choice of IDE.
+If you are authenticating with a personal access token (PAT), ensure that:
+Your GitHub PAT is valid and has the necessary scopes for the actions you want to perform.
+You have entered the correct PAT.
+Copilot agent mode problems
+If you are having trouble with the Copilot Chat agent mode, ensure that:
+You have selected the correct agent in the Copilot Chat box.
+You have configured the MCP server correctly in your IDE.
+You have the necessary permissions to perform the actions you are trying to execute.
+Push protection block
+If you are using the GitHub MCP server and push protection blocks a secret that you believe is safe to expose, you may be able to bypass the block by specifying a reason for allowing the secret. See Working with push protection and the GitHub MCP server .
+General tips
+If you are experiencing other issues with the GitHub MCP server, here are some general tips to help you troubleshoot:
+Check the output logs of the MCP server for any error messages.
+If you are running the MCP server locally, ensure that your local environment is set up correctly for running Docker containers.
+Try restarting the MCP server or your IDE.
+Further reading
+Enhancing GitHub Copilot agent mode with MCP
+Connect agents to external tools

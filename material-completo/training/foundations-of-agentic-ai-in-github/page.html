@@ -1,0 +1,922 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-single    module show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+    <base href="https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/">
+			<title>Foundations of Agentic AI in GitHub - Training | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="Explore how agentic AI changes the developer role from only writing code to guiding, reviewing, and validating systems that can take action across the SDLC. Understand GitHub&#39;s role as the system of record and control plane for safe, traceable agent workflows." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Foundations of Agentic AI in GitHub - Training | Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/training/achievements/generic-badge-social.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Foundations of Agentic AI in GitHub - Training" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/" />
+			<meta property="og:description" content="Explore how agentic AI changes the developer role from only writing code to guiding, reviewing, and validating systems that can take action across the SDLC. Understand GitHub&#39;s role as the system of record and control plane for safe, traceable agent workflows." />
+			<meta name="platform_id" content="4c816741-dae8-33d9-3ae4-329df59a7500" /> 
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-Learn" />
+
+			<meta name="page_type" content="learn" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="uid" content="learn.github.foundations-agentic-ai" />
+	
+		<meta name="schema" content="Module" />
+	
+		<meta name="breadcrumb_path" content="/learn/breadcrumb/toc.json" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="clicktale" content="true" />
+	
+		<meta name="adobe-target" content="true" />
+	
+		<meta name="prefetch-feature-rollout" content="true" />
+	
+		<meta name="localization_scopes" content="de-de" />
+	
+		<meta name="localization_scopes" content="es-es" />
+	
+		<meta name="localization_scopes" content="fr-fr" />
+	
+		<meta name="localization_scopes" content="it-it" />
+	
+		<meta name="localization_scopes" content="ru-ru" />
+	
+		<meta name="localization_scopes" content="pt-br" />
+	
+		<meta name="localization_scopes" content="ja-jp" />
+	
+		<meta name="localization_scopes" content="ko-kr" />
+	
+		<meta name="localization_scopes" content="zh-cn" />
+	
+		<meta name="localization_scopes" content="zh-tw" />
+	
+		<meta name="localization_scopes" content="cs-cz" />
+	
+		<meta name="localization_scopes" content="hu-hu" />
+	
+		<meta name="localization_scopes" content="nl-nl" />
+	
+		<meta name="localization_scopes" content="pl-pl" />
+	
+		<meta name="localization_scopes" content="pt-pt" />
+	
+		<meta name="localization_scopes" content="tr-tr" />
+	
+		<meta name="localization_scopes" content="sv-se" />
+	
+		<meta name="author" content="camihmerhar" />
+	
+		<meta name="ms.author" content="camhernandez" />
+	
+		<meta name="ms.date" content="2026-04-24T00:00:00Z" />
+	
+		<meta name="ms.update-cycle" content="180-days" />
+	
+		<meta name="ms.service" content="github" />
+	
+		<meta name="ms.topic" content="module" />
+	
+		<meta name="document_id" content="4a330a3f-dfdb-9143-45a7-3c831ae818a7" />
+	
+		<meta name="document_version_independent_id" content="36426cdb-6da4-40f6-74c6-0957271e7f1d" />
+	
+		<meta name="updated_at" content="2026-05-04T14:47:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/learn-pr/blob/live/learn-pr/github/foundations-agentic-ai/index.yml" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/learn-pr/blob/f0b2a6cafbc0347f4471c07d89c3ba161f49a99e/learn-pr/github/foundations-agentic-ai/index.yml" />
+	
+		<meta name="git_commit_id" content="f0b2a6cafbc0347f4471c07d89c3ba161f49a99e" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="Docs.learn-pr" />
+	
+		<meta name="page_kind" content="module" />
+	
+		<meta name="feedback_product_url" content="" />
+	
+		<meta name="feedback_help_link_type" content="" />
+	
+		<meta name="feedback_help_link_url" content="" />
+	
+		<meta name="asset_id" content="modules/foundations-agentic-ai/index" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="learn-pr/github/foundations-agentic-ai/index.yml" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/learn/blob/main/learn-pr/github/foundations-agentic-ai/index.yml" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/?accept=text/markdown" />
+	 
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/9bdc1705-9b40-49d6-8377-caa0b71fda66" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/686ed158-d915-41e9-9760-efa46ba88f6d" data-source="generated" />
+	
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03419.7832-d0a860c4/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<script src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			<script src="/_themes/docs.theme/master/en-us/_themes/global/deprecation.js"></script>
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Module",
+    "brand": "",
+    "context": {},
+    "standardFeedback": false,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "",
+    "feedbackHelpLinkUrl": "",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "",
+    "feedbackProductUrl": "",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": false,
+    "contributors": [
+      {
+        "name": "Albertyang0",
+        "url": "https://github.com/Albertyang0"
+      }
+    ]
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			
+				<script src="/static/assets/0.4.03419.7832-d0a860c4/scripts/en-us/index-learner-experience.js"></script>
+			
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main background-color-body-medium"
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+				data-main-column
+				class=""
+			>
+				<div class="">
+					
+		<div id="article-header" class="background-color-body display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between uhf-container">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					  
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					  
+					  
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	 
+					<div data-page-content class=""><div class="modular-content-container" data-bi-name="module">
+	<div class="section is-small is-uniform padding-none padding-block-lg-tablet padding-inline-sm-tablet padding-sm-desktop position-relative">
+		<div class="box is-shadowless-mobile padding-none">
+			<div class="padding-sm padding-bottom-none padding-bottom-none-tablet padding-xs-tablet">
+				<div class="columns has-large-gaps margin-none">
+
+					<figure class="image is-112x112-desktop is-96x96 margin-bottom-sm">
+						<img role="presentation" src="/en-us/training/achievements/generic-badge.svg" alt="" data-linktype="absolute-path">
+					</figure>
+
+					<div class="column is-auto padding-none padding-sm-tablet position-relative-tablet">
+						<div data-progress-uid="learn.github.foundations-agentic-ai" class="xp-tag is-hidden position-absolute top-0 margin-top-xs margin-top-none-tablet has-content-right-zero margin-right-lg-tablet margin-right-sm">
+							<div class="xp-tag-hexagon">
+								<span aria-hidden="true" data-test-id="module-completed-xp-tag-icon" class="xp-tag-icon is-shown-complete docon docon-check"></span>
+								<span class="xp-tag-xp"></span>
+							</div>
+						</div>
+						<div class="columns is-mobile is-gapless margin-bottom-none">
+							<div class="column is-auto heading-container">
+								<h1 class="margin-none title is-2 has-content-margin-right-xxl-tablet margin-block-none">Foundations of Agentic AI in GitHub</h1>
+								<ul class="metadata page-metadata">
+									<li class="module-duration-minutes"></li>
+									<li>
+										Module
+									</li>
+									<li class="module-unit-count">
+										8 Units
+									</li>
+								</ul>
+								<div id="module-pass-tag-container" hidden=""></div>
+									<div class="page-rating margin-bottom-none"></div>
+								<div id="ms--module-user-feedback" data-test-id="module-user-feedback-container" class="display-none-chromeless">
+<div id="user-feedback" class="margin-block-xxs display-none-print" data-hide-on-archived="">
+	<button id="user-feedback-button" data-test-id="conceptual-feedback-button" class="button button-sm button-clear button-primary" type="button" data-bi-name="user-feedback-button" data-user-feedback-button="">
+		<span class="icon" aria-hidden="true">
+			<span class="docon docon-like"></span>
+		</span>
+		<span>Feedback</span>
+	</button>
+</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="display-flex flex-wrap-wrap gap-xxs margin-block-xxs">
+								<div class="tag tag-filled tag-sm font-size-xs">
+									Intermediate
+								</div>
+								<div class="tag tag-filled tag-sm font-size-xs">
+									DevOps Engineer
+								</div>
+								<div class="tag tag-filled tag-sm font-size-xs">
+									Administrator
+								</div>
+								<div class="tag tag-filled tag-sm font-size-xs">
+									Developer
+								</div>
+								<div class="tag tag-filled tag-sm font-size-xs">
+									Solution Architect
+								</div>
+								<div class="tag tag-filled tag-sm font-size-xs">
+									GitHub
+								</div>
+						</div>
+
+						<div class="learn-summary content font-size-md margin-top-xxs"><p>Learn how AI coding agents are transforming software development by planning, acting, and improving within GitHub workflows.</p>
+</div>
+
+							<h2 class="title is-6 margin-bottom-none margin-top-xs">
+								Learning objectives
+							</h2>
+							<div class="abstract content font-size-sm margin-block-xs">
+								<p>By the end of this module, you will be able to:</p>
+<ul>
+<li>Define agentic AI in the SDLC and distinguish agents from assistants</li>
+<li>Explain and apply the plan â?? act â?? evaluate lifecycle in agent workflows</li>
+<li>Describe how GitHub functions as the system of record and control plane for agent activity</li>
+<li>Identify responsibilities, risks, anti-patterns, and traceability requirements in agent systems</li>
+<li>Apply the contributor model to evaluate agent-generated work</li>
+</ul>
+
+							</div>
+
+						<div id="module-actions" class="buttons">
+							<button type="button" class="collection button button-clear inner-focus margin-right-none display-none-chromeless" data-bi-name="collection" data-list-item-title="Foundations of Agentic AI in GitHub" data-resource-type="module" data-test-id="module-add-to-collection" data-list-type="collection">
+								<span class="icon has-text-primary" aria-hidden="true">
+									<span class="docon docon-circle-addition"></span>
+								</span>
+								<span class="add-to-collection-status">
+									Add
+								</span>
+							</button>
+						</div>
+
+							<div class="prerequisites content">
+								<h2 class="title is-6 margin-bottom-none margin-top-xs">Prerequisites</h2>
+								<p>Before getting started, you should have:</p>
+<ul>
+<li>A GitHub account and familiarity with repositories, branches, and pull requests</li>
+<li>Basic experience with GitHub Actions and status checks</li>
+<li>A general understanding of the software development lifecycle (SDLC)</li>
+<li>Familiarity with AI-assisted development tools (such as GitHub Copilot)</li>
+<li>Awareness of basic repository governance concepts (for example, reviews, CODEOWNERS, and branch protection)</li>
+</ul>
+<p>Some controls discussed in this module (for example, rulesets, branch protection, and required checks) must be configured by repository or organization administrators. You can still apply the supervision model without admin access, but enforcement requires appropriate permissions.</p>
+
+							</div>
+
+
+						<div id="parent-learning-paths"></div>
+
+						<ul id="unit-list" class="margin-top-sm module-unit-list-mobile" data-bi-name="units">
+								<li class="module-unit font-size-md position-relative padding-block-xs padding-block-xxs-tablet border-top border-top-none-tablet completable is-unstyled" data-unit-uid="learn.github.foundations-agentic-ai.introduction" data-progress-uid="learn.github.foundations-agentic-ai.introduction">
+									<div class="barLink is-unit-list-item margin-none has-content-margin-left-sm has-content-margin-left-none-tablet columns">
+										<div class="column is-11 is-11-mobile padding-none has-content-margin-right-xs">
+											<a class="unit-title display-block font-size-md has-line-height-reset" href="1-introduction" data-linktype="relative-path">Introduction</a>
+
+											<span class="unit-duration font-size-xs margin-top-xxs has-text-subtle">min</span>
+										</div>
+										<div class="column is-1 is-1-mobile padding-none">
+											<span class="has-text-success docon docon-check is-shown-complete"></span>
+											<span class="docon docon-chevron-right-light font-size-h5 is-hidden-tablet is-hidden-complete"></span>
+										</div>
+									</div>
+								</li>
+								<li class="module-unit font-size-md position-relative padding-block-xs padding-block-xxs-tablet border-top border-top-none-tablet completable is-unstyled" data-unit-uid="learn.github.foundations-agentic-ai.define-agentic-ai" data-progress-uid="learn.github.foundations-agentic-ai.define-agentic-ai">
+									<div class="barLink is-unit-list-item margin-none has-content-margin-left-sm has-content-margin-left-none-tablet columns">
+										<div class="column is-11 is-11-mobile padding-none has-content-margin-right-xs">
+											<a class="unit-title display-block font-size-md has-line-height-reset" href="2-define-agentic-ai" data-linktype="relative-path">Define agentic AI in the SDLC</a>
+
+											<span class="unit-duration font-size-xs margin-top-xxs has-text-subtle">min</span>
+										</div>
+										<div class="column is-1 is-1-mobile padding-none">
+											<span class="has-text-success docon docon-check is-shown-complete"></span>
+											<span class="docon docon-chevron-right-light font-size-h5 is-hidden-tablet is-hidden-complete"></span>
+										</div>
+									</div>
+								</li>
+								<li class="module-unit font-size-md position-relative padding-block-xs padding-block-xxs-tablet border-top border-top-none-tablet completable is-unstyled" data-unit-uid="learn.github.foundations-agentic-ai.explain-agent-lifecycle-plan-act-evaluate" data-progress-uid="learn.github.foundations-agentic-ai.explain-agent-lifecycle-plan-act-evaluate">
+									<div class="barLink is-unit-list-item margin-none has-content-margin-left-sm has-content-margin-left-none-tablet columns">
+										<div class="column is-11 is-11-mobile padding-none has-content-margin-right-xs">
+											<a class="unit-title display-block font-size-md has-line-height-reset" href="3-explain-agent-lifecycle-plan-act-evaluate" data-linktype="relative-path">Explain the agent lifecycle - plan, act, evaluate</a>
+
+											<span class="unit-duration font-size-xs margin-top-xxs has-text-subtle">min</span>
+										</div>
+										<div class="column is-1 is-1-mobile padding-none">
+											<span class="has-text-success docon docon-check is-shown-complete"></span>
+											<span class="docon docon-chevron-right-light font-size-h5 is-hidden-tablet is-hidden-complete"></span>
+										</div>
+									</div>
+								</li>
+								<li class="module-unit font-size-md position-relative padding-block-xs padding-block-xxs-tablet border-top border-top-none-tablet completable is-unstyled" data-unit-uid="learn.github.foundations-agentic-ai.describe-github-system-record-control-plane" data-progress-uid="learn.github.foundations-agentic-ai.describe-github-system-record-control-plane">
+									<div class="barLink is-unit-list-item margin-none has-content-margin-left-sm has-content-margin-left-none-tablet columns">
+										<div class="column is-11 is-11-mobile padding-none has-content-margin-right-xs">
+											<a class="unit-title display-block font-size-md has-line-height-reset" href="4-describe-github-system-record-control-plane" data-linktype="relative-path">Describe GitHub as the system of record and control plane</a>
+
+											<span class="unit-duration font-size-xs margin-top-xxs has-text-subtle">min</span>
+										</div>
+										<div class="column is-1 is-1-mobile padding-none">
+											<span class="has-text-success docon docon-check is-shown-complete"></span>
+											<span class="docon docon-chevron-right-light font-size-h5 is-hidden-tablet is-hidden-complete"></span>
+										</div>
+									</div>
+								</li>
+								<li class="module-unit font-size-md position-relative padding-block-xs padding-block-xxs-tablet border-top border-top-none-tablet completable is-unstyled" data-unit-uid="learn.github.foundations-agentic-ai.identify-risks-traceability" data-progress-uid="learn.github.foundations-agentic-ai.identify-risks-traceability">
+									<div class="barLink is-unit-list-item margin-none has-content-margin-left-sm has-content-margin-left-none-tablet columns">
+										<div class="column is-11 is-11-mobile padding-none has-content-margin-right-xs">
+											<a class="unit-title display-block font-size-md has-line-height-reset" href="5-identify-risks-traceability" data-linktype="relative-path">Identify responsibilities, risks, anti-patterns, and traceability needs</a>
+
+											<span class="unit-duration font-size-xs margin-top-xxs has-text-subtle">min</span>
+										</div>
+										<div class="column is-1 is-1-mobile padding-none">
+											<span class="has-text-success docon docon-check is-shown-complete"></span>
+											<span class="docon docon-chevron-right-light font-size-h5 is-hidden-tablet is-hidden-complete"></span>
+										</div>
+									</div>
+								</li>
+								<li class="module-unit font-size-md position-relative padding-block-xs padding-block-xxs-tablet border-top border-top-none-tablet completable is-unstyled" data-unit-uid="learn.github.foundations-agentic-ai.apply-contributor-model-agent-generated-work" data-progress-uid="learn.github.foundations-agentic-ai.apply-contributor-model-agent-generated-work">
+									<div class="barLink is-unit-list-item margin-none has-content-margin-left-sm has-content-margin-left-none-tablet columns">
+										<div class="column is-11 is-11-mobile padding-none has-content-margin-right-xs">
+											<a class="unit-title display-block font-size-md has-line-height-reset" href="6-apply-contributor-model-agent-generated-work" data-linktype="relative-path">Apply the contributor model to agent-generated work</a>
+
+											<span class="unit-duration font-size-xs margin-top-xxs has-text-subtle">min</span>
+										</div>
+										<div class="column is-1 is-1-mobile padding-none">
+											<span class="has-text-success docon docon-check is-shown-complete"></span>
+											<span class="docon docon-chevron-right-light font-size-h5 is-hidden-tablet is-hidden-complete"></span>
+										</div>
+									</div>
+								</li>
+								<li class="module-unit font-size-md position-relative padding-block-xs padding-block-xxs-tablet border-top border-top-none-tablet completable is-unstyled" data-unit-uid="learn.github.foundations-agentic-ai.knowledge-check" data-progress-uid="learn.github.foundations-agentic-ai.knowledge-check">
+									<div class="barLink is-unit-list-item margin-none has-content-margin-left-sm has-content-margin-left-none-tablet columns">
+										<div class="column is-11 is-11-mobile padding-none has-content-margin-right-xs">
+											<a class="unit-title display-block font-size-md has-line-height-reset" href="7-knowledge-check" data-linktype="relative-path">Knowledge Check</a>
+
+											<span class="unit-duration font-size-xs margin-top-xxs has-text-subtle">min</span>
+										</div>
+										<div class="column is-1 is-1-mobile padding-none">
+											<span class="has-text-success docon docon-check is-shown-complete"></span>
+											<span class="docon docon-chevron-right-light font-size-h5 is-hidden-tablet is-hidden-complete"></span>
+										</div>
+									</div>
+								</li>
+								<li class="module-unit font-size-md position-relative padding-block-xs padding-block-xxs-tablet border-top border-top-none-tablet completable is-unstyled" data-unit-uid="learn.github.foundations-agentic-ai.summary" data-progress-uid="learn.github.foundations-agentic-ai.summary">
+									<div class="barLink is-unit-list-item margin-none has-content-margin-left-sm has-content-margin-left-none-tablet columns">
+										<div class="column is-11 is-11-mobile padding-none has-content-margin-right-xs">
+											<a class="unit-title display-block font-size-md has-line-height-reset" href="8-summary" data-linktype="relative-path">Summary</a>
+
+											<span class="unit-duration font-size-xs margin-top-xxs has-text-subtle">min</span>
+										</div>
+										<div class="column is-1 is-1-mobile padding-none">
+											<span class="has-text-success docon docon-check is-shown-complete"></span>
+											<span class="docon docon-chevron-right-light font-size-h5 is-hidden-tablet is-hidden-complete"></span>
+										</div>
+									</div>
+								</li>
+						</ul>
+
+						<div id="module-attempts-container-v2" class="margin-top-sm has-loading-skeleton" aria-hidden="true" hidden="">
+							<hr>
+							<a class="button button-primary is-loading" href="">Take the module assessment</a>
+							<details class="details margin-top-sm">
+								<summary class="details-summary-reverse background-color-body-medium border-none">
+									<p class="font-weight-semibold font-size-lg margin-bottom-xxs">
+										Module Assessment Results</p>
+									<p class="font-weight-normal">Assess your understanding of this module. Sign in and answer all questions correctly to earn a pass designation on your profile.</p>
+								</summary>
+								<div aria-live="polite" aria-relevant="additions" id="module-attempts-list" class="details-content padding-block-xs padding-left-xl">
+									<ul data-test-id="attempts-list">
+										<li data-test-class="attempts-list-item" class="position-relative padding-block-sm  border-bottom">
+											<div class="columns">
+												<div class="column"><span class="font-weight-semibold"></span><span class="badge badge-filled badge-sm badge-success margin-left-xxs "></span>
+												</div>
+												<div class="column is-two-thirds display-flex justify-content-center align-items-center">
+													<span class="margin-right-xxs"></span>
+													<div class="score-meter flex-grow-1">
+														<meter class="meter is-binary" high="100" max="100" value="75" low="50" optimum="50" style="--optimum-percent: 50%">
+															<span class="optimum" aria-hidden="true" style="width: 50%"></span>
+														</meter>
+														<div class="meter-tick" style="left: 75%;"></div>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</details>
+						</div>
+
+						<div id="ms--inline-notifications" class="margin-block-xs" data-bi-name="inline-notification"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+					
+		<div class="is-mobile is-fixed-bottom is-hidden-tablet">
+			<a
+				href="#"
+				id="start-unit-mobile"
+				class="button button-block button-primary button-filled button-large is-radiusless margin-none"
+				data-bi-name="start"
+				data-test-id="start-unit-button"
+			>
+				<span>Start</span>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-chevron-right-light"></span>
+				</span>
+			</a>
+		</div>
+	
+				</div>
+				
+			</div>
+		
+				</main>
+				  <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-expanded="false"
+				title="Theme"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu">
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="light"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="dark"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="high-contrast"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>

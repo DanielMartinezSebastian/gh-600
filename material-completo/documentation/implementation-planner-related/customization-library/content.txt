@@ -1,0 +1,153 @@
+﻿GitHub Copilot /
+Tutorials /
+Customization library
+Customization library
+Discover a curated collection of customizations, including custom instructions, custom agents, and prompt files, to enhance your GitHub Copilot experience.
+Spotlight
+Your first custom instructions
+Create and test your first custom instruction with this simple example.
+Your first prompt file
+Create your first Copilot prompt file with this simple code explanation example that works for any programming language.
+Your first custom agent
+Create and test your first custom agent with this simple README specialist example.
+Explore 19 examples
+Category : All Complexity : All Reset filters
+Your first custom instructions
+Create and test your first custom instruction with this simple example.
+Custom instructions
+Getting started
+Configure Copilot
+Scale institutional knowledge
+Simple
+Concept explainer
+Instructions for breaking down complex technical concepts.
+Custom instructions
+Getting started
+Configure Copilot
+Scale institutional knowledge
+Simple
+Debugging tutor
+Instructions for systematic debugging and troubleshooting.
+Custom instructions
+Getting started
+Configure Copilot
+Scale institutional knowledge
+Simple
+Code reviewer
+Instructions for thorough and constructive code reviews.
+Custom instructions
+Team collaboration
+Configure Copilot
+Scale institutional knowledge
+Simple
+GitHub Actions helper
+Generate and improve GitHub Actions workflows.
+Custom instructions
+GitHub flows
+Path-specific
+Repository
+Configure Copilot
+Scale institutional knowledge
+Simple
+Pull request assistant
+Generate comprehensive pull request descriptions and reviews.
+Custom instructions
+GitHub flows
+Configure Copilot
+Scale institutional knowledge
+Simple
+Issue manager
+Create well-structured issues and responses.
+Custom instructions
+GitHub flows
+Configure Copilot
+Scale institutional knowledge
+Simple
+Accessibility auditor
+Instructions for comprehensive web accessibility testing and compliance.
+Custom instructions
+Development workflows
+Repository
+Path-specific
+Configure Copilot
+Scale institutional knowledge
+Intermediate
+Testing automation
+File-specific instructions for writing unit tests.
+Custom instructions
+Development workflows
+Path-specific
+Repository
+Configure Copilot
+Scale institutional knowledge
+Advanced
+Your first prompt file
+Create your first Copilot prompt file with this simple code explanation example that works for any programming language.
+Prompt files
+Getting started
+Configure Copilot
+Scale institutional knowledge
+Simple
+Create README
+Generate comprehensive README files for your projects.
+Prompt files
+Getting started
+Configure Copilot
+Scale institutional knowledge
+Simple
+Onboarding plan
+A prompt file for getting personalized help with team onboarding.
+Prompt files
+Team collaboration
+Configure Copilot
+Scale institutional knowledge
+Simple
+Document API
+Generate comprehensive API documentation from your code.
+Prompt files
+Development workflows
+Configure Copilot
+Scale institutional knowledge
+Advanced
+Review code
+Perform comprehensive code reviews with structured feedback.
+Prompt files
+Development workflows
+Configure Copilot
+Scale institutional knowledge
+Advanced
+Generate unit tests
+Create focused unit tests for your code.
+Prompt files
+Development workflows
+Configure Copilot
+Scale institutional knowledge
+Intermediate
+Your first custom agent
+Create and test your first custom agent with this simple README specialist example.
+Custom agents
+Getting started
+Scale institutional knowledge
+Configure Copilot
+Simple
+Implementation planner
+A custom agent that breaks down features into actionable tasks and creates detailed implementation plans.
+Custom agents
+Getting started
+Scale institutional knowledge
+Configure Copilot
+Simple
+Bug fix teammate
+A custom agent that identifies critical bugs in your project and implements targeted fixes.
+Custom agents
+Getting started
+Scale institutional knowledge
+Configure Copilot
+Simple
+Cleanup specialist
+A custom agent that cleans up messy code, removes duplication, and improves maintainability across code and documentation files.
+Custom agents
+Getting started
+Scale institutional knowledge
+Configure Copilot
+Simple

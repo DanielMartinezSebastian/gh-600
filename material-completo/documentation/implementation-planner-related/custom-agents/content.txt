@@ -1,0 +1,14 @@
+﻿GitHub Copilot /
+Tutorials /
+Customization library /
+Custom agents
+Custom agents
+Discover a collection of custom agent profiles you can use as inspiration for your own workflows and needs.
+Your first custom agent
+Create and test your first custom agent with this simple README specialist example.
+Implementation planner
+A custom agent that breaks down features into actionable tasks and creates detailed implementation plans.
+Bug fix teammate
+A custom agent that identifies critical bugs in your project and implements targeted fixes.
+Cleanup specialist
+A custom agent that cleans up messy code, removes duplication, and improves maintainability across code and documentation files.

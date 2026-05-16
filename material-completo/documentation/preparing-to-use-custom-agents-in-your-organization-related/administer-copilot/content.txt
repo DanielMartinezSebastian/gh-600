@@ -1,0 +1,17 @@
+﻿GitHub Copilot /
+How-tos /
+Administer Copilot
+Administer GitHub Copilot for your team
+Manage GitHub Copilot for your team by configuring settings, monitoring usage, and accessing activity reports to optimize adoption.
+Managing GitHub Copilot in your organization
+Organization owners can subscribe to Copilot, manage Copilot for their organization, and control Copilot policies.
+Managing GitHub Copilot in your enterprise
+Manage and govern GitHub Copilot across your enterprise by controlling licensing and access, setting policies and guardrails, and monitoring adoption and usage.
+Managing MCP usage in your company
+Organization and enterprise owners can control the availability of MCP servers for their developers using MCP management features.
+Downloading a GitHub Copilot activity report for your organization or enterprise
+Monitor Copilot license usage with a detailed report.
+Viewing the Copilot usage metrics dashboard
+Monitor adoption trends and use of Copilot to support long-term enablement.
+Viewing the code generation dashboard
+The code generation dashboard shows how Copilot generates code across your enterprise, including activity from both users and agents.

@@ -1,0 +1,821 @@
+﻿[
+    {
+        "category":  "study-guide",
+        "title":  "Study guide GH-600",
+        "url":  "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600",
+        "directory":  ".\\material-completo\\study-guide\\study-guide-gh-600",
+        "textPath":  ".\\material-completo\\study-guide\\study-guide-gh-600\\content.txt",
+        "depth":  0,
+        "parentUrl":  null
+    },
+    {
+        "category":  "training",
+        "title":  "Foundations of Agentic AI in GitHub",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\content.txt",
+        "depth":  0,
+        "parentUrl":  null
+    },
+    {
+        "category":  "training",
+        "title":  "Designing Agent Architecture and SDLC Integration",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\content.txt",
+        "depth":  0,
+        "parentUrl":  null
+    },
+    {
+        "category":  "training",
+        "title":  "Tooling, MCP, and Agent Execution Environments",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\content.txt",
+        "depth":  0,
+        "parentUrl":  null
+    },
+    {
+        "category":  "documentation",
+        "title":  "Preparing to use custom agents in your organization",
+        "url":  "https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents",
+        "directory":  ".\\material-completo\\documentation\\preparing-to-use-custom-agents-in-your-organization",
+        "textPath":  ".\\material-completo\\documentation\\preparing-to-use-custom-agents-in-your-organization\\content.txt",
+        "depth":  0,
+        "parentUrl":  null
+    },
+    {
+        "category":  "documentation",
+        "title":  "Custom agents and sub-agent orchestration",
+        "url":  "https://docs.github.com/en/copilot/how-tos/copilot-sdk/use-copilot-sdk/custom-agents",
+        "directory":  ".\\material-completo\\documentation\\custom-agents-and-sub-agent-orchestration",
+        "textPath":  ".\\material-completo\\documentation\\custom-agents-and-sub-agent-orchestration\\content.txt",
+        "depth":  0,
+        "parentUrl":  null
+    },
+    {
+        "category":  "documentation",
+        "title":  "About GitHub Copilot Memory",
+        "url":  "https://docs.github.com/en/copilot/concepts/agents/copilot-memory",
+        "directory":  ".\\material-completo\\documentation\\about-github-copilot-memory",
+        "textPath":  ".\\material-completo\\documentation\\about-github-copilot-memory\\content.txt",
+        "depth":  0,
+        "parentUrl":  null
+    },
+    {
+        "category":  "documentation",
+        "title":  "Implementation planner",
+        "url":  "https://docs.github.com/en/copilot/tutorials/customization-library/custom-agents/implementation-planner",
+        "directory":  ".\\material-completo\\documentation\\implementation-planner",
+        "textPath":  ".\\material-completo\\documentation\\implementation-planner\\content.txt",
+        "depth":  0,
+        "parentUrl":  null
+    },
+    {
+        "category":  "documentation",
+        "title":  "Building guardrails for GitHub Copilot cloud agent",
+        "url":  "https://docs.github.com/en/copilot/tutorials/cloud-agent/build-guardrails",
+        "directory":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent",
+        "textPath":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent\\content.txt",
+        "depth":  0,
+        "parentUrl":  null
+    },
+    {
+        "category":  "documentation",
+        "title":  "Risks and mitigations for GitHub Copilot cloud agent",
+        "url":  "https://docs.github.com/en/copilot/concepts/agents/cloud-agent/risks-and-mitigations",
+        "directory":  ".\\material-completo\\documentation\\risks-and-mitigations-for-github-copilot-cloud-agent",
+        "textPath":  ".\\material-completo\\documentation\\risks-and-mitigations-for-github-copilot-cloud-agent\\content.txt",
+        "depth":  0,
+        "parentUrl":  null
+    },
+    {
+        "category":  "study-guide\\study-guide-gh-600-related",
+        "title":  "renew-your-microsoft-certification",
+        "url":  "https://learn.microsoft.com/en-us/credentials/certifications/renew-your-microsoft-certification",
+        "directory":  ".\\material-completo\\study-guide\\study-guide-gh-600-related\\renew-your-microsoft-certification",
+        "textPath":  ".\\material-completo\\study-guide\\study-guide-gh-600-related\\renew-your-microsoft-certification\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600"
+    },
+    {
+        "category":  "study-guide\\study-guide-gh-600-related",
+        "title":  "exam-scoring-reports",
+        "url":  "https://learn.microsoft.com/en-us/credentials/certifications/exam-scoring-reports",
+        "directory":  ".\\material-completo\\study-guide\\study-guide-gh-600-related\\exam-scoring-reports",
+        "textPath":  ".\\material-completo\\study-guide\\study-guide-gh-600-related\\exam-scoring-reports\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600"
+    },
+    {
+        "category":  "study-guide\\study-guide-gh-600-related",
+        "title":  "request-accommodations",
+        "url":  "https://learn.microsoft.com/en-us/credentials/certifications/request-accommodations",
+        "directory":  ".\\material-completo\\study-guide\\study-guide-gh-600-related\\request-accommodations",
+        "textPath":  ".\\material-completo\\study-guide\\study-guide-gh-600-related\\request-accommodations\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github",
+        "title":  "Foundations of Agentic AI in GitHub - unit-1",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/1-introduction",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-1",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-1\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github",
+        "title":  "Foundations of Agentic AI in GitHub - unit-2",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/2-define-agentic-ai",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-2",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-2\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github",
+        "title":  "Foundations of Agentic AI in GitHub - unit-3",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/3-explain-agent-lifecycle-plan-act-evaluate",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-3",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-3\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github",
+        "title":  "Foundations of Agentic AI in GitHub - unit-4",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/4-describe-github-system-record-control-plane",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-4",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-4\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github",
+        "title":  "Foundations of Agentic AI in GitHub - unit-5",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/5-identify-risks-traceability",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-5",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-5\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github",
+        "title":  "Foundations of Agentic AI in GitHub - unit-6",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/6-apply-contributor-model-agent-generated-work",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-6",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-6\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github",
+        "title":  "Foundations of Agentic AI in GitHub - unit-7",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/7-knowledge-check",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-7",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-7\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github",
+        "title":  "Foundations of Agentic AI in GitHub - unit-8",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/8-summary",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration",
+        "title":  "Designing Agent Architecture and SDLC Integration - unit-1",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/1-introduction",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-1",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-1\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration",
+        "title":  "Designing Agent Architecture and SDLC Integration - unit-2",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/2-agent-responsibilities",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-2",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-2\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration",
+        "title":  "Designing Agent Architecture and SDLC Integration - unit-3",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/3-inputs-outputs-success-criteria",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-3",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-3\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration",
+        "title":  "Designing Agent Architecture and SDLC Integration - unit-4",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/4-plan-reason-execution",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-4",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-4\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration",
+        "title":  "Designing Agent Architecture and SDLC Integration - unit-5",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/5-pull-request-governance-controls",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-5",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-5\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration",
+        "title":  "Designing Agent Architecture and SDLC Integration - unit-6",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/6-reliable-workflows",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-6",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-6\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration",
+        "title":  "Designing Agent Architecture and SDLC Integration - unit-7",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/7-agent-operations-controls",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-7",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-7\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration",
+        "title":  "Designing Agent Architecture and SDLC Integration - unit-8",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/8-knowledge-check",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-8",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-8\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration",
+        "title":  "Designing Agent Architecture and SDLC Integration - unit-9",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/9-summary",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration-related",
+        "title":  "customize-the-agent-firewall",
+        "url":  "https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/customize-the-agent-firewall",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration-related\\customize-the-agent-firewall",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration-related\\customize-the-agent-firewall\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments",
+        "title":  "Tooling, MCP, and Agent Execution Environments - unit-1",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/1-introduction",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-1",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-1\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments",
+        "title":  "Tooling, MCP, and Agent Execution Environments - unit-2",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/2-interact-github-apis-workflows",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-2",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-2\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments",
+        "title":  "Tooling, MCP, and Agent Execution Environments - unit-3",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/3-model-context-protocol-servers-registries-allow-lists",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-3",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-3\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments",
+        "title":  "Tooling, MCP, and Agent Execution Environments - unit-4",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/4-execution-context-boundaries",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-4",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-4\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments",
+        "title":  "Tooling, MCP, and Agent Execution Environments - unit-5",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/5-agent-execution-limits-protections",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-5",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-5\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments",
+        "title":  "Tooling, MCP, and Agent Execution Environments - unit-6",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/6-knowledge-check",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-6",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-6\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments",
+        "title":  "Tooling, MCP, and Agent Execution Environments - unit-7",
+        "url":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/7-summary",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7\\content.txt",
+        "depth":  0,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/"
+    },
+    {
+        "category":  "documentation\\preparing-to-use-custom-agents-in-your-organization-related",
+        "title":  "how-tos",
+        "url":  "https://docs.github.com/en/copilot/how-tos",
+        "directory":  ".\\material-completo\\documentation\\preparing-to-use-custom-agents-in-your-organization-related\\how-tos",
+        "textPath":  ".\\material-completo\\documentation\\preparing-to-use-custom-agents-in-your-organization-related\\how-tos\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents"
+    },
+    {
+        "category":  "documentation\\preparing-to-use-custom-agents-in-your-organization-related",
+        "title":  "administer-copilot",
+        "url":  "https://docs.github.com/en/copilot/how-tos/administer-copilot",
+        "directory":  ".\\material-completo\\documentation\\preparing-to-use-custom-agents-in-your-organization-related\\administer-copilot",
+        "textPath":  ".\\material-completo\\documentation\\preparing-to-use-custom-agents-in-your-organization-related\\administer-copilot\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents"
+    },
+    {
+        "category":  "documentation\\preparing-to-use-custom-agents-in-your-organization-related",
+        "title":  "manage-for-organization",
+        "url":  "https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization",
+        "directory":  ".\\material-completo\\documentation\\preparing-to-use-custom-agents-in-your-organization-related\\manage-for-organization",
+        "textPath":  ".\\material-completo\\documentation\\preparing-to-use-custom-agents-in-your-organization-related\\manage-for-organization\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents"
+    },
+    {
+        "category":  "documentation\\preparing-to-use-custom-agents-in-your-organization-related",
+        "title":  "about-custom-agents",
+        "url":  "https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-custom-agents",
+        "directory":  ".\\material-completo\\documentation\\preparing-to-use-custom-agents-in-your-organization-related\\about-custom-agents",
+        "textPath":  ".\\material-completo\\documentation\\preparing-to-use-custom-agents-in-your-organization-related\\about-custom-agents\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents"
+    },
+    {
+        "category":  "documentation\\preparing-to-use-custom-agents-in-your-organization-related",
+        "title":  "test-custom-agents",
+        "url":  "https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/test-custom-agents",
+        "directory":  ".\\material-completo\\documentation\\preparing-to-use-custom-agents-in-your-organization-related\\test-custom-agents",
+        "textPath":  ".\\material-completo\\documentation\\preparing-to-use-custom-agents-in-your-organization-related\\test-custom-agents\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents"
+    },
+    {
+        "category":  "documentation\\custom-agents-and-sub-agent-orchestration-related",
+        "title":  "copilot-sdk",
+        "url":  "https://docs.github.com/en/copilot/how-tos/copilot-sdk",
+        "directory":  ".\\material-completo\\documentation\\custom-agents-and-sub-agent-orchestration-related\\copilot-sdk",
+        "textPath":  ".\\material-completo\\documentation\\custom-agents-and-sub-agent-orchestration-related\\copilot-sdk\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/how-tos/copilot-sdk/use-copilot-sdk/custom-agents"
+    },
+    {
+        "category":  "documentation\\custom-agents-and-sub-agent-orchestration-related",
+        "title":  "use-copilot-sdk",
+        "url":  "https://docs.github.com/en/copilot/how-tos/copilot-sdk/use-copilot-sdk",
+        "directory":  ".\\material-completo\\documentation\\custom-agents-and-sub-agent-orchestration-related\\use-copilot-sdk",
+        "textPath":  ".\\material-completo\\documentation\\custom-agents-and-sub-agent-orchestration-related\\use-copilot-sdk\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/how-tos/copilot-sdk/use-copilot-sdk/custom-agents"
+    },
+    {
+        "category":  "documentation\\about-github-copilot-memory-related",
+        "title":  "concepts",
+        "url":  "https://docs.github.com/en/copilot/concepts",
+        "directory":  ".\\material-completo\\documentation\\about-github-copilot-memory-related\\concepts",
+        "textPath":  ".\\material-completo\\documentation\\about-github-copilot-memory-related\\concepts\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/concepts/agents/copilot-memory"
+    },
+    {
+        "category":  "documentation\\about-github-copilot-memory-related",
+        "title":  "agents",
+        "url":  "https://docs.github.com/en/copilot/concepts/agents",
+        "directory":  ".\\material-completo\\documentation\\about-github-copilot-memory-related\\agents",
+        "textPath":  ".\\material-completo\\documentation\\about-github-copilot-memory-related\\agents\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/concepts/agents/copilot-memory"
+    },
+    {
+        "category":  "documentation\\about-github-copilot-memory-related",
+        "title":  "copilot-memory",
+        "url":  "https://docs.github.com/en/copilot/how-tos/use-copilot-agents/copilot-memory",
+        "directory":  ".\\material-completo\\documentation\\about-github-copilot-memory-related\\copilot-memory",
+        "textPath":  ".\\material-completo\\documentation\\about-github-copilot-memory-related\\copilot-memory\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/concepts/agents/copilot-memory"
+    },
+    {
+        "category":  "documentation\\implementation-planner-related",
+        "title":  "tutorials",
+        "url":  "https://docs.github.com/en/copilot/tutorials",
+        "directory":  ".\\material-completo\\documentation\\implementation-planner-related\\tutorials",
+        "textPath":  ".\\material-completo\\documentation\\implementation-planner-related\\tutorials\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/customization-library/custom-agents/implementation-planner"
+    },
+    {
+        "category":  "documentation\\implementation-planner-related",
+        "title":  "customization-library",
+        "url":  "https://docs.github.com/en/copilot/tutorials/customization-library",
+        "directory":  ".\\material-completo\\documentation\\implementation-planner-related\\customization-library",
+        "textPath":  ".\\material-completo\\documentation\\implementation-planner-related\\customization-library\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/customization-library/custom-agents/implementation-planner"
+    },
+    {
+        "category":  "documentation\\implementation-planner-related",
+        "title":  "custom-agents",
+        "url":  "https://docs.github.com/en/copilot/tutorials/customization-library/custom-agents",
+        "directory":  ".\\material-completo\\documentation\\implementation-planner-related\\custom-agents",
+        "textPath":  ".\\material-completo\\documentation\\implementation-planner-related\\custom-agents\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/customization-library/custom-agents/implementation-planner"
+    },
+    {
+        "category":  "documentation\\implementation-planner-related",
+        "title":  "track-copilot-sessions",
+        "url":  "https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/track-copilot-sessions",
+        "directory":  ".\\material-completo\\documentation\\implementation-planner-related\\track-copilot-sessions",
+        "textPath":  ".\\material-completo\\documentation\\implementation-planner-related\\track-copilot-sessions\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/customization-library/custom-agents/implementation-planner"
+    },
+    {
+        "category":  "documentation\\implementation-planner-related",
+        "title":  "create-custom-agents",
+        "url":  "https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/create-custom-agents",
+        "directory":  ".\\material-completo\\documentation\\implementation-planner-related\\create-custom-agents",
+        "textPath":  ".\\material-completo\\documentation\\implementation-planner-related\\create-custom-agents\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/customization-library/custom-agents/implementation-planner"
+    },
+    {
+        "category":  "documentation\\implementation-planner-related",
+        "title":  "custom-agents-configuration",
+        "url":  "https://docs.github.com/en/copilot/reference/custom-agents-configuration",
+        "directory":  ".\\material-completo\\documentation\\implementation-planner-related\\custom-agents-configuration",
+        "textPath":  ".\\material-completo\\documentation\\implementation-planner-related\\custom-agents-configuration\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/customization-library/custom-agents/implementation-planner"
+    },
+    {
+        "category":  "documentation\\building-guardrails-for-github-copilot-cloud-agent-related",
+        "title":  "cloud-agent",
+        "url":  "https://docs.github.com/en/copilot/tutorials/cloud-agent",
+        "directory":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\cloud-agent",
+        "textPath":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\cloud-agent\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/cloud-agent/build-guardrails"
+    },
+    {
+        "category":  "documentation\\building-guardrails-for-github-copilot-cloud-agent-related",
+        "title":  "risks-and-mitigations",
+        "url":  "https://docs.github.com/en/copilot/concepts/agents/coding-agent/risks-and-mitigations",
+        "directory":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\risks-and-mitigations",
+        "textPath":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\risks-and-mitigations\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/cloud-agent/build-guardrails"
+    },
+    {
+        "category":  "documentation\\building-guardrails-for-github-copilot-cloud-agent-related",
+        "title":  "access-management",
+        "url":  "https://docs.github.com/en/copilot/concepts/agents/coding-agent/access-management",
+        "directory":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\access-management",
+        "textPath":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\access-management\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/cloud-agent/build-guardrails"
+    },
+    {
+        "category":  "documentation\\building-guardrails-for-github-copilot-cloud-agent-related",
+        "title":  "extend-cloud-agent-with-mcp",
+        "url":  "https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/extend-cloud-agent-with-mcp",
+        "directory":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\extend-cloud-agent-with-mcp",
+        "textPath":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\extend-cloud-agent-with-mcp\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/cloud-agent/build-guardrails"
+    },
+    {
+        "category":  "documentation\\building-guardrails-for-github-copilot-cloud-agent-related",
+        "title":  "customization-cheat-sheet",
+        "url":  "https://docs.github.com/en/copilot/reference/customization-cheat-sheet",
+        "directory":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\customization-cheat-sheet",
+        "textPath":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\customization-cheat-sheet\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/cloud-agent/build-guardrails"
+    },
+    {
+        "category":  "documentation\\building-guardrails-for-github-copilot-cloud-agent-related",
+        "title":  "configure-secrets-and-variables",
+        "url":  "https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/configure-secrets-and-variables",
+        "directory":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\configure-secrets-and-variables",
+        "textPath":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\configure-secrets-and-variables\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/cloud-agent/build-guardrails"
+    },
+    {
+        "category":  "documentation\\building-guardrails-for-github-copilot-cloud-agent-related",
+        "title":  "configure-runner-for-coding-agent",
+        "url":  "https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/configure-runner-for-coding-agent",
+        "directory":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\configure-runner-for-coding-agent",
+        "textPath":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\configure-runner-for-coding-agent\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/cloud-agent/build-guardrails"
+    },
+    {
+        "category":  "documentation\\building-guardrails-for-github-copilot-cloud-agent-related",
+        "title":  "configuring-agent-settings",
+        "url":  "https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/configuring-agent-settings",
+        "directory":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\configuring-agent-settings",
+        "textPath":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\configuring-agent-settings\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/cloud-agent/build-guardrails"
+    },
+    {
+        "category":  "documentation\\building-guardrails-for-github-copilot-cloud-agent-related",
+        "title":  "enforcing-policies-for-github-actions-in-your-enterprise",
+        "url":  "https://docs.github.com/en/enterprise-cloud@latest/admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise",
+        "directory":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\enforcing-policies-for-github-actions-in-your-enterprise",
+        "textPath":  ".\\material-completo\\documentation\\building-guardrails-for-github-copilot-cloud-agent-related\\enforcing-policies-for-github-actions-in-your-enterprise\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/tutorials/cloud-agent/build-guardrails"
+    },
+    {
+        "category":  "documentation\\risks-and-mitigations-for-github-copilot-cloud-agent-related",
+        "title":  "cloud-agent",
+        "url":  "https://docs.github.com/en/copilot/concepts/agents/cloud-agent",
+        "directory":  ".\\material-completo\\documentation\\risks-and-mitigations-for-github-copilot-cloud-agent-related\\cloud-agent",
+        "textPath":  ".\\material-completo\\documentation\\risks-and-mitigations-for-github-copilot-cloud-agent-related\\cloud-agent\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/concepts/agents/cloud-agent/risks-and-mitigations"
+    },
+    {
+        "category":  "documentation\\risks-and-mitigations-for-github-copilot-cloud-agent-related",
+        "title":  "configuring-agent-settings",
+        "url":  "https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/configuring-agent-settings",
+        "directory":  ".\\material-completo\\documentation\\risks-and-mitigations-for-github-copilot-cloud-agent-related\\configuring-agent-settings",
+        "textPath":  ".\\material-completo\\documentation\\risks-and-mitigations-for-github-copilot-cloud-agent-related\\configuring-agent-settings\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/concepts/agents/cloud-agent/risks-and-mitigations"
+    },
+    {
+        "category":  "documentation\\risks-and-mitigations-for-github-copilot-cloud-agent-related",
+        "title":  "review-copilot-prs",
+        "url":  "https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/review-copilot-prs",
+        "directory":  ".\\material-completo\\documentation\\risks-and-mitigations-for-github-copilot-cloud-agent-related\\review-copilot-prs",
+        "textPath":  ".\\material-completo\\documentation\\risks-and-mitigations-for-github-copilot-cloud-agent-related\\review-copilot-prs\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/concepts/agents/cloud-agent/risks-and-mitigations"
+    },
+    {
+        "category":  "documentation\\risks-and-mitigations-for-github-copilot-cloud-agent-related",
+        "title":  "available-rules-for-rulesets",
+        "url":  "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets",
+        "directory":  ".\\material-completo\\documentation\\risks-and-mitigations-for-github-copilot-cloud-agent-related\\available-rules-for-rulesets",
+        "textPath":  ".\\material-completo\\documentation\\risks-and-mitigations-for-github-copilot-cloud-agent-related\\available-rules-for-rulesets\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://docs.github.com/en/copilot/concepts/agents/cloud-agent/risks-and-mitigations"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-1-related",
+        "title":  "foundations-agentic-ai-github.png",
+        "url":  "https://learn.microsoft.com/en-us/training/github/foundations-agentic-ai/media/foundations-agentic-ai-github.png",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-1-related\\foundations-agentic-ai-github-png",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-1-related\\foundations-agentic-ai-github-png\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/1-introduction"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-2-related",
+        "title":  "assistant-vs-agent-comparison.png",
+        "url":  "https://learn.microsoft.com/en-us/training/github/foundations-agentic-ai/media/assistant-vs-agent-comparison.png",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-2-related\\assistant-vs-agent-comparison-png",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-2-related\\assistant-vs-agent-comparison-png\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/2-define-agentic-ai"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-3-related",
+        "title":  "agent-lifecycle-diagram.png",
+        "url":  "https://learn.microsoft.com/en-us/training/github/foundations-agentic-ai/media/agent-lifecycle-diagram.png",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-3-related\\agent-lifecycle-diagram-png",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-3-related\\agent-lifecycle-diagram-png\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/3-explain-agent-lifecycle-plan-act-evaluate"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8-related",
+        "title":  "reviewing-a-pull-request-created-by-copilot",
+        "url":  "https://docs.github.com/en/copilot/how-tos/agents/copilot-coding-agent/reviewing-a-pull-request-created-by-copilot",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8-related\\reviewing-a-pull-request-created-by-copilot",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8-related\\reviewing-a-pull-request-created-by-copilot\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/8-summary"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8-related",
+        "title":  "creating-rulesets-for-a-repository",
+        "url":  "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/creating-rulesets-for-a-repository",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8-related\\creating-rulesets-for-a-repository",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8-related\\creating-rulesets-for-a-repository\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/8-summary"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8-related",
+        "title":  "authenticating-with-the-github_token",
+        "url":  "https://docs.github.com/en/actions/configuring-and-managing-workflows/authenticating-with-the-github_token",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8-related\\authenticating-with-the-github-token",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8-related\\authenticating-with-the-github-token\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/8-summary"
+    },
+    {
+        "category":  "training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8-related",
+        "title":  "audit-log-for-an-enterprise",
+        "url":  "https://docs.github.com/en/enterprise-cloud@latest/admin/concepts/security-and-compliance/audit-log-for-an-enterprise",
+        "directory":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8-related\\audit-log-for-an-enterprise",
+        "textPath":  ".\\material-completo\\training\\foundations-of-agentic-ai-in-github\\foundations-of-agentic-ai-in-github-unit-8-related\\audit-log-for-an-enterprise\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/8-summary"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-1-related",
+        "title":  "designing-agent-architecture-integration.png",
+        "url":  "https://learn.microsoft.com/en-us/training/github/design-agent-architecture-integration/media/designing-agent-architecture-integration.png",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-1-related\\designing-agent-architecture-integration-png",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-1-related\\designing-agent-architecture-integration-png\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/1-introduction"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related",
+        "title":  "managing-rulesets-for-a-repository",
+        "url":  "https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/managing-rulesets-for-a-repository",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related\\managing-rulesets-for-a-repository",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related\\managing-rulesets-for-a-repository\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/9-summary"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related",
+        "title":  "available-rules-for-rulesets",
+        "url":  "https://docs.github.com/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related\\available-rules-for-rulesets",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related\\available-rules-for-rulesets\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/9-summary"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related",
+        "title":  "security-hardening-for-github-actions",
+        "url":  "https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related\\security-hardening-for-github-actions",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related\\security-hardening-for-github-actions\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/9-summary"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related",
+        "title":  "environments",
+        "url":  "https://docs.github.com/en/actions/reference/environments",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related\\environments",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related\\environments\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/9-summary"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related",
+        "title":  "storing-workflow-data-as-artifacts",
+        "url":  "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related\\storing-workflow-data-as-artifacts",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related\\storing-workflow-data-as-artifacts\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/9-summary"
+    },
+    {
+        "category":  "training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related",
+        "title":  "use-hooks",
+        "url":  "https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/use-hooks",
+        "directory":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related\\use-hooks",
+        "textPath":  ".\\material-completo\\training\\designing-agent-architecture-and-sdlc-integration\\designing-agent-architecture-and-sdlc-integration-unit-9-related\\use-hooks\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/9-summary"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-1-related",
+        "title":  "github-copilot-branding.png",
+        "url":  "https://learn.microsoft.com/en-us/training/github/agent-tooling-mcp-execution-environments/media/github-copilot-branding.png",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-1-related\\github-copilot-branding-png",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-1-related\\github-copilot-branding-png\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/1-introduction"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related",
+        "title":  "about-coding-agent",
+        "url":  "https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\about-coding-agent",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\about-coding-agent\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/7-summary"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related",
+        "title":  "copilot-coding-agent",
+        "url":  "https://docs.github.com/en/copilot/responsible-use/copilot-coding-agent",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\copilot-coding-agent",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\copilot-coding-agent\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/7-summary"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related",
+        "title":  "workflow-syntax-for-github-actions",
+        "url":  "https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\workflow-syntax-for-github-actions",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\workflow-syntax-for-github-actions\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/7-summary"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related",
+        "title":  "events-that-trigger-workflows",
+        "url":  "https://docs.github.com/actions/using-workflows/events-that-trigger-workflows",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\events-that-trigger-workflows",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\events-that-trigger-workflows\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/7-summary"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related",
+        "title":  "automatic-token-authentication",
+        "url":  "https://docs.github.com/en/actions/security-guides/automatic-token-authentication",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\automatic-token-authentication",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\automatic-token-authentication\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/7-summary"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related",
+        "title":  "using-environments-for-deployment",
+        "url":  "https://docs.github.com/actions/deployment/targeting-different-environments/using-environments-for-deployment",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\using-environments-for-deployment",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\using-environments-for-deployment\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/7-summary"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related",
+        "title":  "use-the-github-mcp-server",
+        "url":  "https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp/use-the-github-mcp-server",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\use-the-github-mcp-server",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\use-the-github-mcp-server\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/7-summary"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related",
+        "title":  "configure-mcp-registry",
+        "url":  "https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-mcp-usage/configure-mcp-registry",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\configure-mcp-registry",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\configure-mcp-registry\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/7-summary"
+    },
+    {
+        "category":  "training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related",
+        "title":  "configure-mcp-server-access",
+        "url":  "https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-mcp-usage/configure-mcp-server-access",
+        "directory":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\configure-mcp-server-access",
+        "textPath":  ".\\material-completo\\training\\tooling-mcp-and-agent-execution-environments\\tooling-mcp-and-agent-execution-environments-unit-7-related\\configure-mcp-server-access\\content.txt",
+        "depth":  1,
+        "parentUrl":  "https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/7-summary"
+    }
+]

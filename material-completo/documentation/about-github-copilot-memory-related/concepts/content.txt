@@ -1,0 +1,53 @@
+﻿GitHub Copilot /
+Concepts
+Concepts for GitHub Copilot
+Learn the core concepts that you'll need to understand GitHub Copilot.
+Completions for GitHub Copilot GitHub Copilot code suggestions in your IDE
+GitHub Copilot code referencing
+About GitHub Copilot Chat
+Concepts for GitHub Copilot agents Concepts for GitHub Copilot cloud agent
+Concepts for GitHub Copilot CLI
+About the GitHub Copilot app
+About GitHub Copilot code review
+About GitHub Copilot Memory
+About hooks for GitHub Copilot
+About third-party agents
+OpenAI Codex
+Anthropic Claude
+About agent skills
+Agent management for enterprises
+About GitHub Spark
+GitHub Copilot usage metrics GitHub Copilot usage metrics
+Viewing the Copilot usage metrics dashboard
+Viewing the code generation dashboard
+Data available in Copilot usage metrics
+Interpreting usage and adoption metrics for GitHub Copilot
+Reconciling Copilot usage metrics across dashboards, APIs, and reports
+Lines of Code metrics
+Measuring the success of a GitHub Copilot trial
+Tracking license activation and initial usage with Copilot usage metrics
+Example schema for Copilot usage metrics
+Concepts for prompting GitHub Copilot Prompt engineering for GitHub Copilot Chat
+About customizing GitHub Copilot responses
+Concepts for providing context to GitHub Copilot About Model Context Protocol (MCP)
+About GitHub Copilot Spaces
+Indexing repositories for GitHub Copilot
+Content exclusion for GitHub Copilot
+Concepts for AI tools Choosing the right AI tool for your task
+About Copilot integrations
+About Copilot auto model selection
+Usage limits for GitHub Copilot
+GitHub Copilot billing Usage-based billing for individuals
+Usage-based billing for organizations and enterprises
+Requests in GitHub Copilot
+About individual GitHub Copilot plans and benefits
+About billing for individual GitHub Copilot plans
+About billing for GitHub Copilot in organizations and enterprises
+Management methods for premium request usage in an enterprise
+About enterprise accounts for Copilot Business
+GitHub Copilot policies to control availability of features and models
+MCP server usage in your company
+FedRAMP-compliant models for GitHub Copilot
+Network settings for GitHub Copilot
+Base and long-term support (LTS) models
+Preparing for new features and models

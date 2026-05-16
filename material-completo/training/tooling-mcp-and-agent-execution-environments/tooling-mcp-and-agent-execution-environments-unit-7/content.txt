@@ -1,0 +1,43 @@
+﻿Read in English
+Add
+Add to plan
+Achievements
+Ask Learn
+Ask Learn
+Summary
+Completed
+5 minutes
+Now that you've finished this module, you should be able to:
+Describe how agents operate within GitHub using repositories, branches, workflows, and APIs.
+Explain how workflows powered by GitHub Actions execute agent-driven tasks.
+Explain the difference between traditional GitHub Actions workflows and GitHub Agentic Workflows
+Describe how GitHub Agentic Workflows use Markdown intent, frontmatter, and lock files to run coding agents in GitHub Actions
+Define execution context, including repository scope, branch-based isolation, and workflow boundaries.
+Explain how Model Context Protocol (MCP) extends agent capabilities through servers, registries, and allow lists.
+Apply workflow permissions and least-privilege access to control agent actions.
+Identify limits and protections that govern agent execution, including branch restrictions, pull request review, and environment safeguards.
+Learn more
+Here are some links to more information on the topics we discussed in this module.
+About GitHub Copilot coding agent
+Automate repository tasks with GitHub Agentic Workflows
+GitHub Agentic Workflows (gh-aw)
+Responsible use of Copilot coding agent
+Workflow syntax for GitHub Actions
+Events that trigger workflows
+Managing GitHub Actions permissions
+Using environments for deployment
+Using the GitHub MCP Server
+Configure MCP registry
+Configure MCP server access
+Provide feedback
+Use this issue form to provide content feedback or suggested changes for this module. GitHub maintains this content, and a team member will review your request.
+Feedback
+Was this page helpful?
+Yes
+No
+No
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?

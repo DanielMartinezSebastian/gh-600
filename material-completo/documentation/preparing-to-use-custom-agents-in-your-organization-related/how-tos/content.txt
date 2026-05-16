@@ -1,0 +1,121 @@
+﻿GitHub Copilot /
+How-tos
+How-tos for GitHub Copilot
+Learn how to use GitHub Copilot.
+GitHub Copilot on GitHub Set up Copilot
+Chat with Copilot
+Customize Copilot
+Copilot for GitHub tasks
+Use Copilot agents
+Setting up GitHub Copilot Setting up GitHub Copilot for yourself
+Installing the GitHub Copilot extension in your environment
+Get suggestions from GitHub Copilot Getting code suggestions in your IDE with GitHub Copilot
+Finding public code that matches GitHub Copilot suggestions
+GitHub Copilot Chat Getting started with prompts for GitHub Copilot Chat in your IDE
+Asking GitHub Copilot questions in your IDE
+Asking GitHub Copilot questions in Windows Terminal
+GitHub Copilot CLI Getting started with GitHub Copilot CLI
+Best practices for GitHub Copilot CLI
+Setting up GitHub Copilot CLI
+Use GitHub Copilot CLI
+Automate with GitHub Copilot CLI
+Customize GitHub Copilot CLI
+Administering Copilot CLI for your enterprise
+Automating tasks with Copilot CLI and GitHub Actions
+Quickstart for automating with GitHub Copilot CLI
+Running GitHub Copilot CLI programmatically
+About agent skills
+About plugins for GitHub Copilot CLI
+About GitHub Copilot CLI
+About custom agents
+About remote control of GitHub Copilot CLI sessions
+Allowing GitHub Copilot CLI to work autonomously
+Canceling a GitHub Copilot CLI operation and rolling back changes
+About GitHub Copilot CLI session data
+Comparing GitHub Copilot CLI customization features
+Managing context in GitHub Copilot CLI
+Running tasks in parallel with the /fleet command
+Using LSP servers with GitHub Copilot CLI
+Researching with GitHub Copilot CLI
+About the rubber duck agent
+Copilot CLI ACP server
+GitHub Copilot CLI command reference
+GitHub Copilot CLI plugin reference
+GitHub Copilot CLI programmatic reference
+GitHub Copilot hooks reference
+Responsible use of GitHub Copilot CLI
+Using hooks with Copilot CLI for predictable, policy-compliant execution
+Adding custom instructions for GitHub Copilot CLI
+Adding MCP servers for GitHub Copilot CLI
+Adding agent skills for GitHub Copilot CLI
+Creating and using custom agents for GitHub Copilot CLI
+Overview of customizing GitHub Copilot CLI
+Creating a plugin for GitHub Copilot CLI
+Finding and installing plugins for GitHub Copilot CLI
+Creating a plugin marketplace for GitHub Copilot CLI
+Using your own LLM models in GitHub Copilot CLI
+Using hooks with GitHub Copilot CLI
+Adding LSP servers for GitHub Copilot CLI
+Authenticating GitHub Copilot CLI
+Configuring GitHub Copilot CLI
+Installing GitHub Copilot CLI
+Troubleshooting GitHub Copilot CLI authentication
+Requesting a code review with GitHub Copilot CLI
+Allowing and denying tool use
+Using GitHub Copilot CLI session data
+Connecting GitHub Copilot CLI to VS Code
+Delegating tasks to Copilot
+Invoking custom agents
+Managing pull requests with the /pr command
+Using GitHub Copilot CLI
+Rolling back changes made during a GitHub Copilot CLI session
+Speeding up task completion with the /fleet command
+Steering agents in GitHub Copilot CLI
+Steering a GitHub Copilot CLI session from another device
+GitHub Copilot app Getting started with the GitHub Copilot app
+Customizing the GitHub Copilot app
+Working with agent sessions in the GitHub Copilot app
+Managing issues and pull requests with the GitHub Copilot app
+Using scheduled workflows in the GitHub Copilot app
+GitHub Copilot SDK Getting started with Copilot SDK
+Set up Copilot SDK
+Authenticating with the Copilot SDK
+Use Copilot SDK
+Use hooks
+Observability for Copilot SDK
+Copilot SDK integrations
+Troubleshooting Copilot SDK
+Use GitHub Copilot agents GitHub Copilot cloud agent
+Code review
+Managing and curating Copilot Memory
+AI models for GitHub Copilot Changing the AI model for GitHub Copilot Chat
+Changing the AI model for GitHub Copilot inline suggestions
+Provide context to GitHub Copilot GitHub Copilot Spaces
+Using Model Context Protocol in your IDE
+Configure custom instructions for GitHub Copilot Adding repository custom instructions for GitHub Copilot in your IDE
+Configure and audit content exclusion Excluding content from GitHub Copilot
+Reviewing changes to content exclusions for GitHub Copilot
+Use GitHub Copilot for common tasks Using the GitHub CLI Copilot extension
+Configure personal settings Configuring network settings for GitHub Copilot
+Configuring GitHub Copilot in your environment
+Using GitHub Copilot with an account on GHE.com
+Manage and monitor spending for GitHub Copilot Preparing your organization for usage-based billing
+Preparing for your move to usage-based billing
+Monitoring your GitHub Copilot usage and entitlements
+Managing the premium request allowance for your organization or enterprise
+Managing your company's spending on GitHub Copilot
+Manage your GitHub Copilot account Getting started with a GitHub Copilot plan
+Viewing and changing your GitHub Copilot plan
+Disabling GitHub Copilot Free
+Managing GitHub Copilot policies as an individual subscriber
+Administer GitHub Copilot for your team Managing GitHub Copilot in your organization
+Managing GitHub Copilot in your enterprise
+Managing MCP usage in your company
+Downloading a GitHub Copilot activity report for your organization or enterprise
+Viewing the Copilot usage metrics dashboard
+Viewing the code generation dashboard
+Troubleshoot GitHub Copilot Troubleshooting common issues with GitHub Copilot
+Viewing logs for GitHub Copilot in your environment
+Troubleshooting firewall settings for GitHub Copilot
+Troubleshooting network errors for GitHub Copilot
+Troubleshooting common issues with GitHub Spark

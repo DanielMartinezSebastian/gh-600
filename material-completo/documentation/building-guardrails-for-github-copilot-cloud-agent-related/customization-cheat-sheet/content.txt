@@ -1,0 +1,63 @@
+﻿GitHub Copilot /
+Reference /
+Customization cheat sheet
+Copilot customization cheat sheet
+Compare the different customization options for GitHub Copilot.
+Copy as Markdown
+In this article
+Feature overview
+Usage comparison
+IDE and surface support
+Further reading
+GitHub Copilot offers several customization features that let you tailor its behavior to your workflow, your team's standards, and your project's needs. Use the tables below to find the right one for your use case.
+Feature overview
+This table shows what each customization feature is and where it lives.
+Feature What it is Filename and location
+Custom instructions Always-on context that automatically applies to every interaction within its defined scope .github/copilot-instructions.md
+(repo-wide), .github/instructions/*.instructions.md
+(path-specific), AGENTS.md
+(third-party agents), or personal/org settings via UI on GitHub
+Prompt files Reusable, standalone prompt template with input variables .github/prompts/*.prompt.md
+Custom agents Specialist persona with its own instructions, tool restrictions, and context .github/agents/AGENT-NAME.md
+(repo), agents/AGENT-NAME.md
+in .github-private
+repo (org/enterprise), or user profile
+Subagents Separate agent spawned by the main agent to handle delegated work in an isolated context N/A (runtime process, not a user-configured file)
+Agent skills Folder of instructions, scripts, and resources that Copilot loads when relevant to a task .github/skills/<skill-name>/SKILL.md
+, .claude/skills/<skill-name>/SKILL.md
+, or .agents/skills/<skill-name>/SKILL.md
+(project); ~/.copilot/skills/<skill-name>/SKILL.md
+or ~/.agents/skills/<skill-name>/SKILL.md
+(personal)
+Hooks Custom shell commands that execute deterministically at specific points in an agent's workflow .github/hooks/*.json
+MCP servers Connection to external systems, APIs, and databases mcp.json
+(path varies by IDE), repo settings on GitHub (cloud agent), or mcp-servers
+property in custom agent configurations
+Usage comparison
+This table helps you decide which customization feature to use.
+Feature How to trigger Best for Example use cases
+Custom instructions Automatic Standards, guidelines, or expectations that apply broadly across a context Enforce coding standards, accessibility rules, review checklists
+Prompt files Manual: reference directly in chat or use the prompt file picker Focused single tasks you run once with different inputs each time Generate unit tests, run a code review checklist
+Custom agents Manual: select from the agent dropdown in your IDE, on GitHub, or in Copilot CLI Projects or processes with distinct stages that need specialized capabilities or strict handoffs React reviewer agent, read-only auditing agent
+Subagents Automatic, or reference a subagent directly in your prompt Complex subtasks that should run in isolation from the main agent Codebase research, running test suites
+Agent skills Automatic: chosen by Copilot when relevant to your prompt Multi-step workflows with bundled assets that should be loaded as needed GitHub Actions failure debugging, deployment procedures, release note drafting
+Hooks Automatic: at configured lifecycle events Tasks that need to run at a specific point in the agent lifecycle, with guaranteed execution Run a formatter after every file edit, approve or deny tool executions, prevent credential leaks with secret scanning
+MCP servers Automatic, or ask for a specific tool by name Tasks that require access to external tools or real-time data Manage issues and PRs (GitHub MCP server), automate browser testing (Playwright MCP server)
+IDE and surface support
+This table shows which customization features are supported in each IDE and surface. For the full Copilot feature matrix, see Copilot feature matrix .
+GitHub recommends using the latest stable IDE, Copilot CLI, and Copilot extension versions to get the best Copilot experience.
+Key:
+✓ = supported
+✗ = not supported
+P = under preview
+Feature VS Code Visual Studio JetBrains IDEs Eclipse Xcode GitHub .com Copilot CLI
+Custom instructions ✓ ✓ P P P ✓ ✓
+Prompt files ✓ ✓ P ✗ P ✗ ✗
+Custom agents ✓ ✗ P P P ✓ ✓
+Subagents ✓ ✗ P P P ✗ ✓
+Agent skills ✓ ✗ P ✗ ✗ ✓ ✓
+Hooks P ✗ ✗ ✗ ✗ ✓ ✓
+MCP servers ✓ ✓ ✓ ✓ ✓ ✓ ✓
+For a detailed breakdown of which types of custom instructions are supported in each IDE and surface, see Support for different types of custom instructions .
+Further reading
+Customization library —a curated collection of examples

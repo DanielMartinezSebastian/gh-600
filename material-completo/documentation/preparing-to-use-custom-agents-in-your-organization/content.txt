@@ -1,0 +1,32 @@
+﻿GitHub Copilot /
+How-tos /
+Administer Copilot /
+Manage for organization /
+Prepare for custom agents
+Preparing to use custom agents in your organization
+Configure the repository that stores custom agents for your organization.
+Who can use this feature?
+Organization owners
+Copy as Markdown
+In this article
+Prerequisites
+Preparing your organization for custom agents
+Next steps
+Note
+Copilot custom agents are in public preview and subject to change.
+Prerequisites
+You should understand what Copilot custom agents are and how they work. See About custom agents .
+Note
+If your organization is part of an enterprise, enterprise owners can configure a ruleset that restricts custom agents. Contact your enterprise owners to check whether you can create and manage organization-level custom agents.
+Preparing your organization for custom agents
+Create your custom agent repository using GitHub's template repository . The template includes a README and the file structure you need.
+In the Choose an owner dropdown menu, choose your organization.
+Name the repository .github-private
+and write a brief description.
+In the visibility dropdown menu, choose one of the following options:
+Click Internal to grant read access to all members of your organization or enterprise.
+Click Private to manually grant access after creation or if internal visibility is not an option.
+Click Create repository .
+Update the template README. Include any creation guidelines for custom agents or compliance considerations specific to your organization.
+Next steps
+To trial custom agents, see Testing and releasing custom agents in your organization or enterprise .

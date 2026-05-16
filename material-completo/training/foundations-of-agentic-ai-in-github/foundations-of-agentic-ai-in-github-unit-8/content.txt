@@ -1,0 +1,34 @@
+﻿Read in English
+Add
+Add to plan
+Achievements
+Ask Learn
+Ask Learn
+Summary
+Completed
+5 minutes
+In this module, you:
+Built a working definition of agentic AI in the SDLC and learned how agents differ from assistants.
+Learned how agents show up in GitHub as contributors through branches, pull requests, workflow runs, and reviews.
+Practiced the plan â act â evaluate lifecycle as the core model for agent execution and iteration.
+Learned how GitHub serves as a system of record and a control plane, using controls like rulesets/branch protection, required checks, required reviews, CODEOWNERS, and environments (when configured).
+Identified common risks and anti-patterns, and learned how traceability plus a contributor-based review model helps you evaluate agent work reliably.
+Learn more
+For deeper reading, use official GitHub documentation on:
+Reviewing a pull request created by GitHub Copilot
+Creating rulesets for a repository and About protected branches (branch protection rules)
+About code owners (CODEOWNERS)
+Use GITHUB_TOKEN for authentication in workflows
+Uploading a SARIF file to GitHub (code scanning)
+About push protection (secret scanning)
+Audit log for an enterprise (availability depends on organization/enterprise configuration)
+Feedback
+Was this page helpful?
+Yes
+No
+No
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?

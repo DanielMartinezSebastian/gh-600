@@ -1,0 +1,15 @@
+﻿GitHub Copilot /
+Tutorials /
+Cloud agent
+GitHub Copilot cloud agent
+Find out how to get great results from Copilot cloud agent.
+Best practices for using GitHub Copilot to work on tasks
+Learn how to get the best results from Copilot cloud agent.
+Piloting GitHub Copilot cloud agent in your organization
+Follow best practices to enable Copilot cloud agent in your organization.
+Using GitHub Copilot cloud agent to improve a project
+Find and fix problems in a project with Copilot cloud agent.
+Building guardrails for GitHub Copilot cloud agent
+Configure your enterprise so that Copilot cloud agent will operate in a secure, compliant environment.
+Giving GitHub Copilot cloud agent access to resources in your organization
+Get more out of Copilot by giving it access to approved MCP servers and internal packages.

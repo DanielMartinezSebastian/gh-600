@@ -1,0 +1,51 @@
+﻿Read in English
+Add
+Add to plan
+Achievements
+Ask Learn
+Ask Learn
+Knowledge Check
+Completed
+5 minutes
+1.
+What is the most reliable way to prevent planless execution from being merged?
+Ask the agent to be careful.
+Require a plan template only.
+Make a plan check a required status check and require pull request reviews.
+Allow direct pushes but require tests.
+2.
+Which GitHub feature most directly routes reviews based on changed file paths?
+Issues
+CODEOWNERS
+Actions artifacts
+Releases
+3.
+In a plan-act-evaluate architecture, where should evaluation evidence primarily live?
+Only inside the agent's private logs
+In PR comments only
+In GitHub-native artifacts like workflow runs, checks, and uploaded artifacts
+In a separate external document
+4.
+Which design best expresses risk-based autonomy for production deployments?
+Let the agent deploy after tests pass
+Use GitHub Environments with required reviewers for production
+Allow direct pushes to main
+Disable workflow approvals
+5.
+Which is an architectural anti-pattern in agent design?
+Clear success criteria
+Required checks
+Mixed planning and execution with no inspectable plan
+Uploading artifacts
+You must answer all questions before checking your work.
+You must answer all questions before checking your work.
+Feedback
+Was this page helpful?
+Yes
+No
+No
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?

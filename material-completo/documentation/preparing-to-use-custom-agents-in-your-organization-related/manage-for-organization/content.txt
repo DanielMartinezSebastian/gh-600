@@ -1,0 +1,22 @@
+﻿GitHub Copilot /
+How-tos /
+Administer Copilot /
+Manage for organization
+Managing GitHub Copilot in your organization
+Organization owners can subscribe to Copilot, manage Copilot for their organization, and control Copilot policies.
+Managing the GitHub Copilot plan for your organization
+Organization owners can manage the Copilot plan for their organization.
+Managing access to GitHub Copilot in your organization
+Organization owners can grant and revoke Copilot access for members of their organization.
+Managing policies and features for GitHub Copilot in your organization
+Control the availability of GitHub Copilot features and models for users granted a license by your organization.
+Adding GitHub Copilot cloud agent to your organization
+Enable Copilot cloud agent for your members and control the repositories where it is available.
+Configuring runners for GitHub Copilot cloud agent in your organization
+Configure the GitHub Actions runners used by Copilot cloud agent and control whether repositories can customize the runner type.
+Preparing to use custom agents in your organization
+Configure the repository that stores custom agents for your organization.
+Reviewing activity related to GitHub Copilot in your organization
+Organization owners can review Copilot usage in their organization.
+Using your LLM provider API keys with Copilot
+Learn how to integrate your preferred custom models with GitHub Copilot by using your own LLM API keys, and make them available to your organization members.

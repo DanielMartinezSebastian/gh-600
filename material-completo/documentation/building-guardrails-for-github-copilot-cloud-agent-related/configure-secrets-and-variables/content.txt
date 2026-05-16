@@ -1,0 +1,71 @@
+﻿GitHub Copilot /
+How-tos /
+Copilot on GitHub /
+Customize Copilot /
+Customize cloud agent /
+Configure secrets and variables
+Configure secrets and variables for Copilot cloud agent
+Securely pass secrets and variables to Copilot cloud agent so it can access private resources and configure MCP servers.
+Copy as Markdown
+In this article
+About secrets and variables for Copilot cloud agent
+Configuring repository-level secrets and variables
+Configuring organization-level secrets and variables
+Using secrets and variables
+Naming requirements for secrets and variables
+Further reading
+About secrets and variables for Copilot cloud agent
+When you delegate a task to Copilot cloud agent, it works in its own ephemeral development environment, powered by GitHub Actions. You may want to pass secrets and variables to the agent to:
+Give Copilot access to private resources, such as internal package registries, when it builds, tests, or validates your code in the agent's environment.
+Configure MCP servers, by passing API keys, tokens, or other configuration to the servers. For more information, see Connect agents to external tools .
+Set environment variables that are available to scripts and tools that Copilot runs in its environment, including in copilot-setup-steps.yml
+. For more information, see Configure the development environment .
+Copilot cloud agent has its own dedicated Agents secrets and variables, alongside the existing Actions , Codespaces , and Dependabot types. You can configure Agents secrets and variables at:
+The organization level , so a single secret or variable can be shared across any or all repositories in your organization.
+The repository level , for configuration that only applies to a single repository.
+Variables and secrets that you configure are exposed to Copilot as environment variables, except secrets and variables prefixed with COPILOT_MCP_
+, which are only available to MCP servers.
+Note
+If you previously configured secrets or variables in the copilot
+environment in a repository's GitHub Actions settings, those secrets and variables have been automatically migrated to the new repository-level Agents type. You don't need to take any action, and you can manage them from the new location going forward.
+Configuring repository-level secrets and variables
+You must be a repository administrator to configure Agents secrets and variables for a repository.
+On GitHub, navigate to the main page of the repository.
+Under your repository name, click Settings . If you cannot see the "Settings" tab, select the dropdown menu, then click Settings .
+In the "Security" section of the sidebar, click Secrets and variables , then click Agents .
+To add a secret, click the Secrets tab, then click New repository secret . To add a variable, click the Variables tab, then click New repository variable .
+Fill in the "Name" and "Value" (or "Secret") fields, and then click Add secret or Add variable .
+Configuring organization-level secrets and variables
+You must be an organization owner to configure Agents secrets and variables for an organization.
+On GitHub, navigate to the main page of the organization.
+Under your organization name, click Settings . If you cannot see the "Settings" tab, select the dropdown menu, then click Settings .
+In the "Security" section of the sidebar, click Secrets and variables , then click Agents .
+To add a secret, click the Secrets tab, then click New organization secret . To add a variable, click the Variables tab, then click New organization variable .
+Fill in the "Name" and "Value" (or "Secret") fields.
+Under "Repository access", choose which repositories in your organization can access the secret or variable:
+All repositories : any repository in the organization can access the secret or variable.
+Private repositories : any private or internal repository in the organization can access the secret or variable.
+Selected repositories : only the repositories you specify can access the secret or variable.
+Click Add secret or Add variable .
+Using secrets and variables
+Once configured, Agents secrets and variables are automatically available to Copilot cloud agent when it works on a task in the repository. They are exposed to the agent as environment variables in its development environment, so they can be used by scripts and tools that Copilot runs, including by your copilot-setup-steps.yml
+workflow.
+Secret values are masked in Copilot cloud agent session logs.
+Note
+Copilot cloud agent does not have access to GitHub Actions, Codespaces, or Dependabot secrets and variables. Only Agents secrets and variables are passed to the agent.
+Naming requirements for secrets and variables
+Names must:
+Only contain alphanumeric characters ( [A-Z]
+, [0-9]
+) or underscores ( _
+). Spaces are not allowed.
+Not start with the GITHUB_
+prefix.
+Not start with a number.
+Names are case-insensitive. Lowercase letters are converted to uppercase. Names must be unique at the level at which they are created.
+If a variable or secret with the same name exists at multiple levels, the value at the lowest level takes precedence. For example, a repository-level secret will override an organization-level secret with the same name.
+For secrets and variables that you want to pass to MCP servers, the name must begin with the prefix COPILOT_MCP_
+. Only Agents secrets and variables with this prefix are available to your MCP configuration. For more information, see Connect agents to external tools .
+Further reading
+Configure the development environment
+Connect agents to external tools

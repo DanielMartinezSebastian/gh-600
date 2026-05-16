@@ -1,0 +1,74 @@
+﻿Table of contents
+Exit editor mode
+Ask Learn
+Ask Learn
+Reading mode
+Table of contents
+Read in English
+Add
+Add to plan
+Edit
+Copy Markdown
+Print
+Note
+Access to this page requires authorization. You can try signing in or changing directories .
+Access to this page requires authorization. You can try changing directories .
+Exam scoring and score reports
+Feedback
+Summarize this article for me
+In this article
+Scores needed to pass exams
+Technical exams : All technical exam scores are reported on a scale of 1 to 1,000. A passing score is 700 or greater. As this is a scaled score , it may not equal 70% of the points. A passing score is based on the knowledge and skills needed to demonstrate competence as well as the difficulty of the questions.
+Microsoft Office exams : All Microsoft Office exam scores are reported on a scale of 1 to 1,000. The actual score you need to pass depends on the specific exam youâre taking.
+How exams are scored
+When answering most multi-part questions, youâll receive one point for each correctly answered component. You can earn all, some, or none of the points possible for that question. If a question is worth more than one point, it will be noted in the question. Usually, youâll receive one point for each correctly answered component.
+Thereâs no penalty for guessing. If you choose an incorrect answer, you simply wonât earn the point for that question or part. No points are deducted for incorrect answers.
+Some questions on the exam may not be included in your score. These questions are used to gather data to update and improve the quality of each exam. However, as soon as we have the necessary data to evaluate their quality, questions that meet our psychometric standards will be scored. You wonât know which questions are unscored, so you should answer every question as if it will be included in your score.
+Microsoft continues to introduce new and innovative question types that may require different approaches to scoring. Alternate approaches to scoring will be noted in the question text.
+When to expect your score
+For most exams, youâll have results within minutes of finish the exam. Youâll also get a report with your exam score and feedback on your performance. Exams with labs take about 30 minutes to score, so youâll have to wait a bit longer. Your score will be available in your Learn profile within 24 hours.
+If you took a beta exam, you wonât receive results until the exam completes the beta process and goes live. To learn more visit: Beta exams .
+For exams taken with Certiport, the exam provider for students and educators, youâll be presented with a screen showing your final score and pass/fail status as soon as you finish the exam. Your results will also be available in your Learn profile or in your Certiport dashboard within 24 hours. To learn more about accessing your Certiport transcript, visit: Certiportâs FAQs .
+How to access your score report
+Score reports are available online for exams taken with Pearson VUE and Certiport.
+To access your Pearson VUE score report:
+Sign into Learn using the same personal Microsoft account (MSA) you used to schedule your exam.
+Select the Profile (Step 1 and 2) and then choose Credentials (Step 3) inside the profile menu. Click Certifications (Step 4)
+Scroll to the section titled â Past exams â and locate the exam. Select â View details on provider site â to be taken to the exam providerâs dashboard.
+Look for the exam for which you wish to view the score report, and then select the â View â button.
+Alternatively, you can also follow the steps provided below to view your score reports directly from the Pearson VUE website:
+Follow the steps on how to schedule an exam by selecting a certification on this page Browse Credentials | Microsoft Learn
+Before being redirected to Pearson Vue, youâll need to provide details such as your address, phone number, and contact email.
+Once done, you will be redirected to the Pearson VUE Dashboard. Click on the Pearson Vue Home Icon and then âView Score Reportâ
+Understand an exam score report
+The score report provides:
+A numeric score for overall exam performance
+Pass/fail status
+A bar chart showing performance on each skill area assessed
+Detail on how to interpret your results
+The bar chart shows your performance for each skill area. Shorter bars indicate weakness, longer bars show strength. The chart canât be used to calculate the number of questions answered correctly in a section or on the exam as a whole.
+What to do if you fail an exam
+If you fail a certification exam, donât worry. You can retake it 24 hours after the first attempt. For subsequent retakes, the amount of time varies. For full details, visit: Exam retake policy .
+To prepare for a retake, review the strengths or weaknesses revealed on your score report. Practice the skills where your exam performance was weak as well as the skills in the content areas with the highest percentage of questions. You can also review exam preparation resources on the exam details page and the prepare for an exam page. Note : Microsoft does not share which questions were answered incorrectly.
+When youâre ready to retake the exam, schedule an appointment and pay (if applicable) for the exam according to the exam retake policy .
+Why Microsoft reports scaled scores
+Scaled scores are standard practice across the certification and licensure industry because they help candidates gauge improvement between retakes. The passing score is based on subject matter expertsâ review of the question difficulty in relation to an expected skill. For easier sets of questions, more points are required to pass. For more difficult sets of questions, fewer points are required to pass. (This is why providing a simple percent correct wonât help you gauge success.)
+Frequently asked questions about exam scoring and score reports
+Can I find out which questions I answered incorrectly?
+No. Microsoft certification exams are designed to validate your skills in various technologies and job roles; they are not designed for learning purposes. Qualified candidates will be able to pass the exam regardless of the questions they are asked; if they have the skills being assessed, they should be able to answer questions to demonstrate those skills.
+In addition, to protect the integrity and fairness of the certification process, Microsoft does not share information about the specific questions that were answered incorrectly. Sharing details about incorrect questions could compromise the integrity of the Certification, making it easier for future candidates to anticipate and prepare for specific questions rather than demonstrating their overall competency.
+Finally, the certification exam aims to evaluate your ability to apply knowledge and skills in a comprehensive manner. Providing feedback on individual questions might lead to a narrow focus on specific areas, rather than encouraging a well-rounded understanding and application of the skill being assessed.
+Use the information provided in this report to focus your study efforts on areas of weakness. If you gain experience in those areas, your skills will improve.
+I received the same score each time I took the same exam. Is something wrong?
+No, receiving the same score on multiple attempts does not indicate an error. Itâs not uncommon for candidates to earn similar or identical scores on multiple attempts. This consistent result demonstrates the reliability of the exam in evaluating skills. If this happens, consider other ways to learn and practice. Learn more about how to prepare for an exam .
+I scored zero in one of the sections. How is this possible?
+Some skill areas (those with less critical or infrequently performed skills) have fewer questions than others. Therefore, if you had trouble with a skill area presenting just a few questions, you may score zero.
+I experienced significant delays between some of the questions. Was my response recorded? Was it scored correctly?
+You may experience delays of up to a minute between questions. The exam delivery providerâs software is designed to accommodate this. Your answers are recorded, and the exam was scored correctly.
+Does the score report show a numerical score for each section?
+No, the report only shows a numerical score to reflect overall performance. We provide section level information in a bar chart to show your strengths and weaknesses more clearly.
+The bars on the score chart show that I scored more than 70 percent. Why didnât I pass?
+Because each section of the exam (bar on the chart) contains a different number of questions, you cannot combine the results across these sections to determine your overall result. In other words, there is no one-to-one relationship between the length of the bars and your pass/fail status.
+Additional resources
+Last updated on
+2025-05-27

@@ -1,0 +1,48 @@
+﻿GitHub Copilot /
+How-tos /
+Copilot on GitHub /
+Use Copilot agents /
+Review Copilot output
+Review output from Copilot
+Copilot pull requests deserve the same thorough review as any contribution. Mention @copilot
+to request changes, or push commits directly to the branch.
+Who can use this feature?
+Copilot cloud agent is available with the GitHub Copilot Pro, GitHub Copilot Pro+, GitHub Copilot Business and GitHub Copilot Enterprise plans. The agent is available in all repositories stored on GitHub, except repositories owned by managed user accounts and where it has been explicitly disabled.
+Sign up for Copilot
+Copy as Markdown
+In this article
+Review Copilot's changes
+Resolve merge conflicts
+Manage GitHub Actions workflow runs
+Give feedback on Copilot's work
+Further reading
+Review Copilot's changes
+When Copilot finishes a coding task and requests your review, check the pull request thoroughly before merging.
+Important
+If your repository requires pull request approvals, your approval of a Copilot pull request won't count toward the required number. Another reviewer must approve the pull request before it can be merged.
+Mention @copilot
+in a pull request comment to request changes. By default, Copilot pushes commits directly to the pull request branch. To create a separate pull request instead, describe that in your comment. You can also check out the branch and push changes yourself.
+Batch review comments instead of submitting them individually. When submitting a pull request comment (not a review or review comment) through the GitHub web interface, select a model with the model picker. Copilot uses the model from the original pull request by default.
+Copilot only responds to comments from people who have write access to the repository.
+When Copilot starts a new session in response to your comment, an eyes emoji (👀) reaction appears on the comment. A "Copilot has started work" event appears in the pull request timeline.
+Copilot remembers context from previous sessions on the same pull request, so follow-up requests are faster and more reliable. If the pull request was created by a custom agent, mentioning @copilot
+continues using that same agent.
+Resolve merge conflicts
+You can ask Copilot to resolve merge conflicts on a pull request in two ways:
+Using the "Fix with Copilot" button : If a pull request has merge conflicts, click the Fix with Copilot button that appears in the merge box.
+Using an @copilot mention : Mention @copilot
+in a comment on the pull request and ask it to fix the conflicts—for example, "@copilot resolve the merge conflicts on this PR."
+Copilot analyzes the conflicting changes, resolves them, and verifies that the build, tests, and linter still pass. It then requests your review so you can confirm the resolution before merging.
+Manage GitHub Actions workflow runs
+By default, GitHub Actions workflows will not run automatically when Copilot pushes changes to a pull request.
+GitHub Actions workflows can be privileged and have access to sensitive secrets. Inspect the proposed changes in the pull request and ensure that you are comfortable running your workflows on the pull request branch. You should be especially alert to any proposed changes in the .github/workflows/
+directory that affect workflow files.
+To allow GitHub Actions workflows to run, click the Approve and run workflows button in the pull request's merge box.
+Optionally, you can configure Copilot cloud agent to allow GitHub Actions workflows to run without human intervention. For more information, see Configuring settings for GitHub Copilot cloud agent .
+Give feedback on Copilot's work
+Use the feedback buttons on Copilot's pull requests and comments to rate the output. Your feedback helps improve Copilot's quality.
+On a pull request or comment from Copilot, click the thumbs up (👍) or thumbs down (👎) button.
+If you click the thumbs down button, optionally select a reason and leave a comment, then click Submit feedback .
+Further reading
+Best practices for using GitHub Copilot to work on tasks
+Troubleshooting GitHub Copilot cloud agent

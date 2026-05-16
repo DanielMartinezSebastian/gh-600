@@ -1,0 +1,19 @@
+﻿GitHub Copilot /
+Concepts /
+Agents /
+Cloud agent
+Concepts for GitHub Copilot cloud agent
+Learn how Copilot cloud agent can carry out research, planning and coding tasks for you, working independently in the same workflow you use yourself.
+These articles provide an overview of Copilot cloud agent. For instructions on configuring and using Copilot cloud agent, see the how-to articles under GitHub Copilot cloud agent .
+About GitHub Copilot cloud agent
+Copilot can research a repository, create an implementation plan, and make code changes on a branch. You can review the diff, iterate, and create a pull request when you're ready.
+About agent management
+Use one centralized control page to jump between agent sessions, check progress, and stay in control without losing your place.
+About custom agents
+Custom agents enhance Copilot with assistance tailored to your needs.
+Managing access to GitHub Copilot cloud agent
+Find out about Copilot cloud agent policies available for GitHub Copilot Enterprise and GitHub Copilot Business, and about disabling the agent for specific repositories.
+Model Context Protocol (MCP) and GitHub Copilot cloud agent
+Find out about using the Model Context Protocol (MCP) with Copilot cloud agent.
+Risks and mitigations for GitHub Copilot cloud agent
+How do Copilot cloud agent's built-in security protections mitigate known risks?

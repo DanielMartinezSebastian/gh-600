@@ -1,0 +1,22 @@
+﻿GitHub Copilot /
+How-tos /
+Copilot SDK /
+Use Copilot SDK
+Use Copilot SDK
+Explore the capabilities you can add to your Copilot SDK application.
+Working with hooks
+Use hooks to customize the behavior of your Copilot SDK sessions.
+Custom agents and sub-agent orchestration
+Define specialized agents with scoped tools and prompts, and let Copilot orchestrate them as sub-agents within a single session.
+Using image input with the Copilot SDK
+Send images to Copilot SDK sessions as file or blob attachments.
+Using MCP servers with the Copilot SDK
+Integrate MCP servers with the Copilot SDK to extend your application's capabilities with external tools.
+Session persistence in the Copilot SDK
+Pause, resume, and manage Copilot SDK sessions across restarts and deployments.
+Using custom skills with the Copilot SDK
+Use skills to extend Copilot's capabilities with reusable prompt modules.
+Steering and queueing messages in the Copilot SDK
+Send messages to an active Copilot SDK session to redirect it mid-turn or queue follow-up tasks.
+Streaming events in the Copilot SDK
+Reference session events emitted by the Copilot SDK and the data fields each event contains.

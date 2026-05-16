@@ -1,0 +1,21 @@
+﻿GitHub Copilot /
+How-tos /
+Copilot SDK
+GitHub Copilot SDK
+Learn how to customize your Copilot experience using Copilot SDK.
+Getting started with Copilot SDK
+Learn how to install Copilot SDK and send your first message.
+Set up Copilot SDK
+Learn how to configure and deploy GitHub Copilot SDK for different environments.
+Authenticating with the Copilot SDK
+Choose the authentication method that best fits your deployment scenario for GitHub Copilot SDK.
+Use Copilot SDK
+Explore the capabilities you can add to your Copilot SDK application.
+Use hooks
+Customize the behavior of Copilot SDK sessions at key points in the conversation lifecycle using hooks.
+Observability for Copilot SDK
+Learn how to monitor and trace your Copilot SDK applications.
+Copilot SDK integrations
+Integrate Copilot SDK with third-party agent frameworks and orchestration platforms.
+Troubleshooting Copilot SDK
+Find solutions to common issues and resolve problems when using Copilot SDK.

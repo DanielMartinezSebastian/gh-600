@@ -1,0 +1,48 @@
+﻿Read in English
+Foundations of Agentic AI in GitHub
+Module
+8 Units
+Feedback
+Intermediate
+DevOps Engineer
+Administrator
+Developer
+Solution Architect
+GitHub
+Learn how AI coding agents are transforming software development by planning, acting, and improving within GitHub workflows.
+Learning objectives
+By the end of this module, you will be able to:
+Define agentic AI in the SDLC and distinguish agents from assistants
+Explain and apply the plan â act â evaluate lifecycle in agent workflows
+Describe how GitHub functions as the system of record and control plane for agent activity
+Identify responsibilities, risks, anti-patterns, and traceability requirements in agent systems
+Apply the contributor model to evaluate agent-generated work
+Add
+Prerequisites
+Before getting started, you should have:
+A GitHub account and familiarity with repositories, branches, and pull requests
+Basic experience with GitHub Actions and status checks
+A general understanding of the software development lifecycle (SDLC)
+Familiarity with AI-assisted development tools (such as GitHub Copilot)
+Awareness of basic repository governance concepts (for example, reviews, CODEOWNERS, and branch protection)
+Some controls discussed in this module (for example, rulesets, branch protection, and required checks) must be configured by repository or organization administrators. You can still apply the supervision model without admin access, but enforcement requires appropriate permissions.
+Introduction
+min
+Define agentic AI in the SDLC
+min
+Explain the agent lifecycle - plan, act, evaluate
+min
+Describe GitHub as the system of record and control plane
+min
+Identify responsibilities, risks, anti-patterns, and traceability needs
+min
+Apply the contributor model to agent-generated work
+min
+Knowledge Check
+min
+Summary
+min
+Take the module assessment
+Module Assessment Results
+Assess your understanding of this module. Sign in and answer all questions correctly to earn a pass designation on your profile.
+Start

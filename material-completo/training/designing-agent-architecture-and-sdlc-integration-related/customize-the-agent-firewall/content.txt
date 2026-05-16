@@ -1,0 +1,118 @@
+﻿GitHub Copilot /
+How-tos /
+Copilot on GitHub /
+Customize Copilot /
+Customize cloud agent /
+Customize the agent firewall
+Customizing or disabling the firewall for GitHub Copilot cloud agent
+Learn how to control the domains and URLs that Copilot cloud agent can access.
+Copy as Markdown
+In this article
+Overview
+Limitations
+Understanding the recommended firewall allowlist
+Configuring the firewall at the organization level
+Configuring the firewall at the repository level
+Further reading
+Note
+Firewall configuration has moved to the Copilot cloud agent settings page. Previous configurations saved as Actions variables will be maintained on that page.
+Overview
+By default, Copilot's access to the internet is limited by a firewall.
+Limiting internet access helps manage data exfiltration risks. Unexpected behavior from Copilot, or malicious instructions, could lead to code or other sensitive information being leaked to remote locations.
+The firewall always allows access to a number of hosts that Copilot uses to interact with GitHub. By default, a recommended allowlist is also enabled to allow the agent to download dependencies.
+If Copilot tries to make a request which is blocked by the firewall, a warning is added to the pull request body (for new pull requests) or to a comment (for existing pull requests). The warning shows the blocked address and the command that tried to make the request.
+Limitations
+The agent firewall has important limitations that affect its security coverage.
+Only applies to processes started by the agent : The firewall only applies to processes started by the agent via its Bash tool. It does not apply to Model Context Protocol (MCP) servers or processes started in configured Copilot setup steps.
+Only applies within the GitHub Actions appliance : The firewall only operates within the GitHub Actions appliance environment. It does not apply to processes running outside of this environment.
+Bypass potential : Sophisticated attacks may bypass the firewall, potentially allowing unauthorized network access and data exfiltration.
+These limitations mean that the firewall provides protection for common scenarios, but should not be considered a comprehensive security solution.
+Understanding the recommended firewall allowlist
+The recommended allowlist, enabled by default, allows access to:
+Common operating system package repositories (for example, Debian, Ubuntu, Red Hat).
+Common container registries (for example, Docker Hub, Azure Container Registry, AWS Elastic Container Registry).
+Packages registries used by popular programming languages (C#, Dart, Go, Haskell, Java, JavaScript, Perl, PHP, Python, Ruby, Rust, Swift).
+Common certificate authorities (to allow SSL certificates to be validated).
+Hosts used to download web browsers for the Playwright MCP server.
+For the complete list of hosts included in the recommended allowlist, see Copilot allowlist reference .
+Configuring the firewall at the organization level
+Organization owners can configure all firewall settings at the organization level. To access the firewall settings:
+In the upper-right corner of GitHub, click your profile picture, then click Organizations .
+Select an organization by clicking on it.
+Under your organization name, click Settings . If you cannot see the "Settings" tab, select the dropdown menu, then click Settings .
+In the sidebar, under "Code, planning, and automation", click Copilot , and then click Cloud agent .
+Enabling or disabling the firewall
+Warning
+Disabling the firewall will allow Copilot to connect to any host, increasing risks of exfiltration of code or other sensitive information.
+Under "Internet access", set the Enable firewall setting to Enabled , Disabled , or Let repositories decide (default).
+Enabling or disabling the recommended allowlist
+Under "Internet access", set the Recommended allowlist setting to Enabled , Disabled , or Let repositories decide (default).
+Controlling whether repositories can add custom allowlist rules
+By default, repository administrators can add their own entries to the firewall allowlist. Organization owners can disable this to prevent repositories from adding custom rules.
+Under "Internet access", set the Allow repository custom rules setting to Enabled (default) or Disabled .
+Managing the organization custom allowlist
+Items added to the organization custom allowlist apply to all repositories in the organization. These items cannot be deleted at the repository level. Organization-level and repository-level rules are combined.
+Under "Internet access", click Organization custom allowlist .
+Add the addresses you want to include in the allowlist. You can include:
+Domains (for example, packages.contoso.corp
+). Traffic will be allowed to the specified domain and any subdomains.
+Example : packages.contoso.corp
+will allow traffic to packages.contoso.corp
+and prod.packages.contoso.corp
+, but not artifacts.contoso.corp
+.
+URLs (for example, https://packages.contoso.corp/project-1/
+). Traffic will only be allowed on the specified scheme ( https
+) and host ( packages.contoso.corp
+), and limited to the specified path and descendant paths.
+Example : https://packages.contoso.corp/project-1/
+will allow traffic to https://packages.contoso.corp/project-1/
+and https://packages.contoso.corp/project-1/tags/latest
+, but not https://packages.contoso.corp/project-2
+, ftp://packages.contoso.corp
+or https://artifacts.contoso.corp
+.
+Click Add rule .
+After validating your list, click Save changes .
+Configuring the firewall at the repository level
+Repository administrators can configure firewall settings at the repository level, including enabling or disabling the firewall, enabling or disabling the recommended allowlist, and managing a custom allowlist. Depending on the organization-level configuration, some of these settings may be locked.
+To access the firewall settings:
+On GitHub, navigate to the main page of the repository.
+Under your repository name, click Settings . If you cannot see the "Settings" tab, select the dropdown menu, then click Settings .
+In the "Code & automation" section of the sidebar, click Copilot then cloud agent .
+Enabling or disabling the firewall
+Note
+You can only change this setting at the repository level if the organization-level Enable firewall setting is set to Let repositories decide . If the organization-level setting is Enabled or Disabled , you can't change this setting for individual repositories.
+Toggle the Enable firewall setting on or off.
+Enabling or disabling the recommended allowlist
+Note
+You can only change this setting at the repository level if the organization-level Recommended allowlist setting is set to Let repositories decide . If the organization-level setting is Enabled or Disabled , you can't change this setting for individual repositories.
+Toggle the Recommended allowlist setting on or off.
+Managing the custom allowlist
+Note
+You can only add custom allowlist rules at the repository level if the organization-level Allow repository custom rules setting is set to Enabled . For more information, see Controlling whether repositories can add custom allowlist rules .
+Click Custom allowlist .
+Add the addresses you want to include in the allowlist. You can include:
+Domains (for example, packages.contoso.corp
+). Traffic will be allowed to the specified domain and any subdomains.
+Example : packages.contoso.corp
+will allow traffic to packages.contoso.corp
+and prod.packages.contoso.corp
+, but not artifacts.contoso.corp
+.
+URLs (for example, https://packages.contoso.corp/project-1/
+). Traffic will only be allowed on the specified scheme ( https
+) and host ( packages.contoso.corp
+), and limited to the specified path and descendant paths.
+Example : https://packages.contoso.corp/project-1/
+will allow traffic to https://packages.contoso.corp/project-1/
+and https://packages.contoso.corp/project-1/tags/latest
+, but not https://packages.contoso.corp/project-2
+, ftp://packages.contoso.corp
+or https://artifacts.contoso.corp
+.
+Click Add rule .
+After validating your list, click Save changes .
+Further reading
+Store information in variables
+Configure the development environment

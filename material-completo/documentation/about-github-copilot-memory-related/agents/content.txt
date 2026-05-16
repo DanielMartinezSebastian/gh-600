@@ -1,0 +1,27 @@
+﻿GitHub Copilot /
+Concepts /
+Agents
+Concepts for GitHub Copilot agents
+Learn how GitHub Copilot can independently execute tasks across the software development lifecycle.
+Concepts for GitHub Copilot cloud agent
+Learn how Copilot cloud agent can carry out research, planning and coding tasks for you, working independently in the same workflow you use yourself.
+Concepts for GitHub Copilot CLI
+Learn how you can use GitHub Copilot in your terminal.
+About the GitHub Copilot app
+The GitHub Copilot app is a desktop application for agent-driven development that brings parallel workstreams, GitHub integration, and PR lifecycle management into one place.
+About GitHub Copilot code review
+Find out how Copilot can review pull requests for you.
+About GitHub Copilot Memory
+Find out how Copilot can store repository-level facts and user-level preferences, and use that knowledge in future work.
+About hooks for GitHub Copilot
+Extend and customize GitHub Copilot agent behavior by executing custom shell commands at key points during agent execution.
+About third-party agents
+You can incorporate coding agents into your development workflows on GitHub.
+OpenAI Codex
+Use the OpenAI Codex coding agent and Visual Studio Code extension powered by Copilot.
+Anthropic Claude
+Use the Anthropic Claude coding agent powered by Copilot.
+About agent skills
+Skills allow Copilot to perform specialized tasks.
+Agent management for enterprises
+Maintain your enterprise's security and compliance standards and supercharge your developers by managing agents with AI Controls.

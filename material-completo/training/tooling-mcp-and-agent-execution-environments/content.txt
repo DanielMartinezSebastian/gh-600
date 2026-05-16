@@ -1,0 +1,44 @@
+﻿Read in English
+Tooling, MCP, and Agent Execution Environments
+Module
+7 Units
+Feedback
+Intermediate
+DevOps Engineer
+Administrator
+Developer
+Solution Architect
+GitHub
+Learn how agents use tools, MCP, and GitHub workflows to execute tasks safely, with clear boundaries, security controls, and scalable automation.
+Learning objectives
+By the end of this module, you will:
+Understand how agents use tools and APIs to perform actions
+Explain the role of MCP servers in extending agent capabilities
+Configure execution environments using GitHub Actions and GitHub Agentic workflows
+Define execution boundaries such as repository, branch, and workflow scope
+Identify limits and protections that govern agent execution, including branch restrictions, pull request review, and environment safeguards
+Add
+Prerequisites
+Before getting started, you should have:
+A GitHub account
+Basic understanding of repositories, branches, and pull requests
+Familiarity with GitHub Actions
+General knowledge of CI and CD concepts
+Introduction
+min
+How agents interact with GitHub APIs and workflows
+min
+Model Context Protocol (MCP) servers, registries, and allow lists
+min
+Execution context and boundaries
+min
+Agent execution limits and protections
+min
+Module assessment
+min
+Summary
+min
+Take the module assessment
+Module Assessment Results
+Assess your understanding of this module. Sign in and answer all questions correctly to earn a pass designation on your profile.
+Start

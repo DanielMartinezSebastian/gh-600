@@ -1,0 +1,41 @@
+﻿Read in English
+Add
+Add to plan
+Achievements
+Ask Learn
+Ask Learn
+Summary
+Completed
+5 minutes
+This module covered how to design agent architectures that work reliably within the Software Development Lifecycle (SDLC) while maintaining clear boundaries, governance, and human oversight. We explored how agentic systems can go beyond simple automation by interpreting goals and proposing changes, but also why that power requires structure-without it, agents can introduce risk to code quality, security, and stability
+A key theme across the module was reinforcing that agents should propose work, not unilaterally execute it. By using pull requests, required checks, CODEOWNERS, and environment protections, we ensure that all agent-generated changes are validated through both automated signals and human review before they are accepted. This model is critical to maintaining security and reliability, especially as agent autonomy increases.
+By enforcing governance, observability, and risk-based autonomy, teams can safely delegate repetitive or time-consuming work to agents while keeping humans in control of decisions that matter most. The result is a development workflow that is both faster and more scalable, without sacrificing trust, quality, or accountability.
+In this module, you learned how to:
+Map agent responsibilities to SDLC stages and define bounded scopes.
+Define task inputs, outputs, and enforceable success criteria.
+Separate planning from execution and enforce plan gating.
+Use PR-based controls (templates, required checks, CODEOWNERS, rules, environments) to govern work.
+Build reliable workflows using outputs, contexts, and safe triggering patterns.
+Operate agents safely using observability, artifacts, tool governance, MCP restrictions, secrets isolation, hooks-based guardrails, and reliability patterns.
+Learn more
+For deeper reading, use official GitHub documentation on:
+Creating a pull request template for your repository
+Managing rulesets for a repository and Available rules for rulesets
+Troubleshooting required status checks (helps avoid brittle "required check" designs)
+Using GITHUB_TOKEN for authentication in workflows and Security hardening for GitHub Actions
+Environments (required reviewers, deployment protection rules, and approval gates)
+Uploading an artifact in a workflow (workflow outputs as durable evidence)
+Uploading a SARIF file to GitHub (code scanning evidence in CI)
+Protecting pushes with secret scanning (push protection) (prevents supported secrets from being committed)
+Using hooks with GitHub Copilot agents
+Tracking GitHub Copilot's sessions
+Feedback
+Was this page helpful?
+Yes
+No
+No
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?

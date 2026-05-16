@@ -1,0 +1,40 @@
+﻿Tutorials for GitHub Copilot
+Build skills and knowledge about GitHub Copilot through examples and hands-on activities.
+Recommended
+GitHub Copilot Chat Cookbook
+Find examples of prompts to use with GitHub Copilot Chat.
+Customization library
+Discover a curated collection of customizations, including custom instructions, custom agents, and prompt files, to enhance your GitHub Copilot experience.
+Rolling out GitHub Copilot at scale
+Learn how to manage a Copilot rollout in your organization or enterprise.
+Articles
+All categories
+Accelerate PR velocity
+Accelerating pull requests in your company with GitHub Copilot
+Understand features, enable developers, and measure Copilot's impact.
+Scale institutional knowledge
+Accessibility auditor
+Instructions for comprehensive web accessibility testing and compliance.
+Scale institutional knowledge
+Analyzing and incorporating user feedback
+Copilot Chat can enhance the process of incorporating user feedback into your project.
+Automate simple user stories
+Best practices for using GitHub Copilot to work on tasks
+Learn how to get the best results from Copilot cloud agent.
+Scale institutional knowledge
+Bug fix teammate
+A custom agent that identifies critical bugs in your project and implements targeted fixes.
+Accelerate PR velocity
+Build an optimized review process with Copilot
+Automate reviews with Copilot to optimize and improve your review process.
+Rapid prototyping
+Building and deploying AI-powered apps with GitHub Spark
+Learn how to build and deploy an intelligent web app with natural language using GitHub Spark.
+Roll Copilot out at scale
+Building guardrails for GitHub Copilot cloud agent
+Configure your enterprise so that Copilot cloud agent will operate in a secure, compliant environment.
+Scale institutional knowledge
+Cleanup specialist
+A custom agent that cleans up messy code, removes duplication, and improves maintainability across code and documentation files.
+Showing 1-9 of 95
+Previous 1 2 3 4 5 6 7 … 11 Next

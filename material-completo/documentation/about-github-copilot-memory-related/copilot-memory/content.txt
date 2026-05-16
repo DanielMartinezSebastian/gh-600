@@ -1,0 +1,69 @@
+﻿GitHub Copilot /
+How-tos /
+Use Copilot agents /
+Copilot Memory
+Managing and curating Copilot Memory
+Learn how to manage Copilot Memory settings, and how to view and delete stored repository-level facts and user-level preferences.
+Who can use this feature?
+Enterprises and organizations with a Copilot Enterprise or Copilot Business plan.
+Individual users with a Copilot Pro or Copilot Pro+ plan.
+Sign up for Copilot
+Copy as Markdown
+In this article
+Enabling Copilot Memory
+Viewing and deleting repository-level facts and user-level preferences
+Note
+This feature is currently in public preview and is subject to change.
+User-level preferences are currently only available for users on a Copilot Pro or Copilot Pro+ plan.
+Copilot Memory lets Copilot learn about your codebase and your personal preferences, helping Copilot cloud agent, Copilot code review, and Copilot CLI work more effectively.
+For more information, see About GitHub Copilot Memory .
+Enabling Copilot Memory
+For users with an individual Copilot subscription to Copilot Pro or Copilot Pro+, Copilot Memory is enabled by default. These users can manage the setting in their personal Copilot settings.
+For enterprise and organization-managed Copilot subscriptions, Copilot Memory is off by default and must be enabled in the enterprise or organization settings.
+Users who receive Copilot from an organization must have Copilot Memory enabled in the organization or enterprise settings.
+Note
+If a user is assigned a Copilot subscription by more than one organization, the most restrictive setting applies—that is, Copilot Memory will not be used unless all of those organizations have enabled this feature.
+Enabling Copilot Memory for an enterprise
+Enterprise owners can define an enablement policy for the whole enterprise, or delegate the decision to individual organization owners.
+Navigate to your enterprise. For example, from the Enterprises page on GitHub.com.
+At the top of the page, click AI controls .
+In the sidebar, click Copilot .
+Under "Features", scroll down to the Copilot Memory setting and select a policy from the dropdown.
+Let organizations decide devolves the decision of whether to enable Copilot Memory to organization owners.
+Enabled everywhere enables Copilot Memory for all members of organizations in this enterprise who have a Copilot license.
+Disabled everywhere disables Copilot Memory and prevents it being enabled by organizations in this enterprise.
+Enabling Copilot Memory for an organization
+Organization owners can enable or disable Copilot Memory for all members of the organization with a Copilot license.
+If the organization belongs to an enterprise, the ability for organization owners to enable or disable Copilot Memory may be controlled by the enterprise-level policy.
+In the upper-right corner of GitHub, click your profile picture, then click Organizations .
+Select an organization by clicking on it.
+Under your organization name, click Settings . If you cannot see the "Settings" tab, select the dropdown menu, then click Settings .
+In the sidebar, under "Code, planning, and automation", click Copilot , then click Policies .
+Under "Features", scroll down to the setting for Copilot Memory .
+Click the dropdown button and select Enabled .
+Copilot Memory is enabled for all members of the organization who have a Copilot license.
+Managing Copilot Memory for an individual user
+If you have an individual Copilot Pro or Copilot Pro+ subscription, Copilot Memory is enabled by default.
+Regardless of your plan, you can disable or re-enable it at any time in your personal Copilot settings on GitHub.
+When enabled, Copilot Memory will be used in any repository in which you use Copilot cloud agent, Copilot code review, or Copilot CLI.
+In the upper-right corner of any page on GitHub, click your profile picture, then click Copilot settings .
+Under "Features", scroll down to the setting for Copilot Memory .
+Click the dropdown button and select Enabled or Disabled .
+Viewing and deleting repository-level facts and user-level preferences
+As an owner of a repository in which Copilot Memory is in use, you can review the currently stored repository-level facts. If you think any are inappropriate, misleading, or incorrect you can delete them.
+Viewing Copilot's repository-level facts
+On GitHub, navigate to the main page of the repository.
+Under your repository name, click Settings . If you cannot see the "Settings" tab, select the dropdown menu, then click Settings .
+In the "Code & automation" section of the sidebar, click Copilot then Memory .
+A list of the repository-level facts currently stored for this repository is displayed.
+Viewing Copilot's user-level preferences
+In the upper-right corner of any page on GitHub, click your profile picture, then click Copilot settings .
+In the Copilot, click Memory .
+A list of your stored user-level preferences is displayed.
+Deleting a repository-level fact or user-level preference
+You can delete a repository-level fact or user-level preference at any time. Note that Copilot already validates facts and preferences before using them, so an entry is only applied if the code that produced it still exists in the codebase.
+View the repository-level facts or user-level preferences.
+Click the trashcan icon to the right of a fact or preference you want to delete.
+Alternatively, use the checkboxes to select multiple entries, then click Delete .
+Note
+Repository-level facts and user-level preferences are automatically deleted after 28 days to prevent stale information from influencing Copilot's decisions.

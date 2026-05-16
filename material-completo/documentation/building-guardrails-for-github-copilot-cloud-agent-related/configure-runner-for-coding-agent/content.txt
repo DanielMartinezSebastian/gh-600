@@ -1,0 +1,53 @@
+﻿GitHub Copilot /
+How-tos /
+Administer Copilot /
+Manage for organization /
+Configure agent runners
+Configuring runners for GitHub Copilot cloud agent in your organization
+Configure the GitHub Actions runners used by Copilot cloud agent and control whether repositories can customize the runner type.
+Who can use this feature?
+Organization owners
+Copilot cloud agent is available with the GitHub Copilot Pro, GitHub Copilot Pro+, GitHub Copilot Business and GitHub Copilot Enterprise plans. The agent is available in all repositories stored on GitHub, except repositories owned by managed user accounts and where it has been explicitly disabled.
+Contact Sales
+Copy as Markdown
+In this article
+About organization-level runner controls
+Configuring the default runner type
+Preventing repositories from customizing the runner type
+Further reading
+About organization-level runner controls
+By default, Copilot cloud agent runs on a standard GitHub-hosted GitHub Actions runner ( ubuntu-latest
+). As an organization owner, you can change the default runner type for all repositories in your organization, and choose whether individual repositories are allowed to override this default.
+This is useful if your organization requires all Copilot cloud agent sessions to run on specific runners—for example, to use larger runners for better performance, or to use self-hosted runners that have access to internal resources.
+You can configure:
+Runner type : Choose between a standard GitHub-hosted runner or a labeled runner from a specific runner group.
+Allow repositories to customize the runner type : Control whether repositories can override the organization default using a Copilot setup steps workflow defined at .github/workflows/copilot-setup-steps.yml
+.
+Configuring the default runner type
+In the upper-right corner of GitHub, click your profile picture, then click Organizations .
+Select an organization by clicking on it.
+Under your organization name, click Settings . If you cannot see the "Settings" tab, select the dropdown menu, then click Settings .
+In the sidebar, under "Code, planning, and automation", click Copilot , and then click Cloud agent .
+Next to "Runner type," click the pencil icon ( ).
+Select the runner type to use by default for Copilot cloud agent across your organization.
+Standard GitHub runner : Copilot cloud agent will use ubuntu-latest
+.
+Labeled runner : Copilot cloud agent will use a runner matching the group name and/or label you specify. Enter values in the Runner group name and/or Runner label fields.
+Click Save runner selection .
+Preventing repositories from customizing the runner type
+By default, repositories can override the organization-level runner configuration using a Copilot setup steps workflow located at .github/workflows/copilot-setup-steps.yml
+. If you want to enforce a consistent runner type across all repositories, you can disable this option.
+In the upper-right corner of GitHub, click your profile picture, then click Organizations .
+Select an organization by clicking on it.
+Under your organization name, click Settings . If you cannot see the "Settings" tab, select the dropdown menu, then click Settings .
+In the sidebar, under "Code, planning, and automation", click Copilot , and then click Cloud agent .
+Under "Allow repositories to customize the runner type," toggle the setting to enable or disable repository-level customization.
+When enabled, repositories can override the default runner by setting the runs-on
+field in the copilot-setup-steps
+job of copilot-setup-steps.yml
+. See Configure the development environment .
+When disabled, all repositories in your organization will use the organization-level runner type.
+Click Save .
+Further reading
+Configure the development environment
+Adding GitHub Copilot cloud agent to your organization
