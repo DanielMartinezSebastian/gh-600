@@ -1,0 +1,35 @@
+{
+  "name": "gh-600-agentic-ai-certification",
+  "description": "Material de estudio completo y recursos oficiales para la certificación GH-600: Developing in Agentic AI Systems (Microsoft & GitHub). Incluye guía de estudio, módulos de Microsoft Learn, documentación de GitHub Copilot, orquestación multi-agent, memoria de agentes, guardrails y prácticas recomendadas.",
+  "keywords": [
+    "GH-600",
+    "agentic AI",
+    "GitHub Copilot",
+    "Copilot SDK",
+    "Model Context Protocol",
+    "MCP",
+    "multi-agent",
+    "AI certification",
+    "Microsoft Learn",
+    "GitHub Docs",
+    "custom agents",
+    "AI guardrails",
+    "state management",
+    "AI orchestration",
+    "responsible AI",
+    "examen GH-600",
+    "certificación Microsoft",
+    "estudio IA",
+    "AI workflows"
+  ],
+  "license": "SEE LICENSE IN README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielMartinezSebastian/gh-600"
+  },
+  "author": "Daniel Martinez Sebastián <https://martinezsebastian.com>",
+  "homepage": "https://github.com/DanielMartinezSebastian/gh-600",
+  "bugs": {
+    "url": "https://github.com/DanielMartinezSebastian/gh-600/issues"
+  }
+}
